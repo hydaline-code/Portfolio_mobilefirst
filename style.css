@@ -16,6 +16,10 @@ header {
   padding-top: 1em;
 }
 
+.menu > i {
+  font-size:25px;
+}
+
 .myname {
   width: 270px;
   height: 80px;
