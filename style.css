@@ -74,6 +74,130 @@ header {
   width: 100%;
 }
 
+.projects {
+  border: solid 1px rgb(0, 255, 76);
+}
+
+.project-title {
+  font-family: 'Playfair Display', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 50px;
+  line-height: 100%;
+  width: 181px;
+  margin-left: 1.3rem;
+}
+
+.project1-img {
+  background-image: url('./images/Rectangle\ 21.png ');
+  background-size: 100% 100%;
+  width: 100%;
+  height: 188px;
+}
+
+.project2-img {
+  background-image: url('./images/Rectangle\ 21\ \(1\).png');
+  background-size: 100% 100%;
+  width: 100%;
+  height: 188px;
+}
+
+.project3-img {
+  background-image: url('./images/Rectangle\ 21\ \(2\).png');
+  background-size: 100% 100%;
+  width: 100%;
+  height: 188px;
+}
+
+.project4-img {
+  background-image: url('./images/Rectangle\ 21\ \(3\).png');
+  background-size: 100% 100%;
+  width: 100%;
+  height: 188px;
+}
+
+.project5-img {
+  background-image: url('./images/Rectangle\ 21\ \(4\).png');
+  background-size: 100% 100%;
+  width: 100%;
+  height: 188px;
+}
+
+.project6-img {
+  background-image: url('./images/Rectangle\ 21\ \(5\).png');
+  background-size: 100% 100%;
+  width: 100%;
+  height: 188px;
+}
+
+.project-des {
+  width: 375px;
+  height: 200px;
+  padding: 1.2rem 0 0 0;
+  background: #1a2236;
+  border: 0.333333px solid rgba(255, 255, 255, 0.1);
+}
+
+.sub-title {
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 80%;
+  width: 264px;
+  height: 16px;
+  color: #fff;
+  margin: 2rem 0 0 2.5rem;
+}
+
+.project-des > ul {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  margin: 1.3rem 5rem 0 0;
+}
+
+ul > li {
+  background: #98dede;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 10.3334px;
+  line-height: 80%;
+  padding: 0.5rem 0 0 0.7rem;
+}
+
+ul > li:nth-child(1) {
+  width: 69px;
+  height: 20px;
+  margin-right: 0.5rem;
+}
+
+ul > li:nth-child(2) {
+  width: 87px;
+  height: 20px;
+  margin-right: 0.5rem;
+}
+
+ul > li:nth-child(3) {
+  width: 74px;
+  height: 20px;
+}
+
+.btn-project > button {
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  text-align: center;
+  width: 198px;
+  height: 50px;
+  margin: 1.3rem 0 2rem 2.5rem;
+  color: #fff;
+  border: 1px solid #fff;
+  background: #1a2236;
+}
+
 @media screen and (min-width: 768px) {
   .headline-p {
     width: 100%;
@@ -90,5 +214,18 @@ header {
 
   .headline-img > img {
     width: 100%;
+  }
+
+  .projects {
+    width: 100%;
+  }
+
+  .project-des {
+    width: 100%;
+  }
+
+  .project1-img {
+    width: 100%;
+    background-size: 100% 100%;
   }
 }
