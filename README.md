@@ -105,7 +105,7 @@ $ git clone git@github.com:myaccount/project_to clone.git
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-> Describe 1 - 3 features you will add to the project.
+Describe 1 - 3 features you will add to the project.
 
 - **[Form-section]**
 - **[About-me]**
@@ -126,7 +126,7 @@ Feel free to check the [issues page](../../issues/).
 <!-- SUPPORT -->
 ## ⭐️ Show your support <a name="support"></a>
 
-> Let's Collaborate and give a star
+ Let's Collaborate and give a star
       If you like this project...
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
