@@ -58,6 +58,7 @@ header {
   line-height: 24px;
   letter-spacing: 0;
   text-align: center;
+  border: none;
 }
 
 .headline-btn:hover {
@@ -66,12 +67,11 @@ header {
 }
 
 .headline-img {
-  width: 375px;
+  height: 375px;
   margin-top: 2rem;
-}
-
-.headline-img > img {
-  width: 100%;
+  background-image: url("./images/image_geometry_2.png");
+  background-repeat: no-repeat;
+  background-size: contain;
 }
 
 @media screen and (min-width: 768px) {
@@ -85,10 +85,6 @@ header {
   }
 
   .headline-img {
-    width: 100%;
-  }
-
-  .headline-img > img {
-    width: 100%;
+    background-size: cover;
   }
 }
