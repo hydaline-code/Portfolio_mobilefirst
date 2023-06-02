@@ -39,7 +39,6 @@ Built with HTML & CSS for a start
 
 Linter was applied so as to have style bug-free codes.
 
- Project Improvement with Javascript 
 
 <details>
   <summary>Client</summary>
@@ -53,7 +52,9 @@ Linter was applied so as to have style bug-free codes.
 
 ### Key Features <a name="key-features"></a>
 
- Improving the portfolio by working on the Project 's aboutme and section  contact form.
+ Improving the portfolio by working on :
+ - **[My project section]**
+ - **[About-me]**
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
   
 
@@ -108,8 +109,7 @@ $ git clone git@github.com:myaccount/project_to clone.git
 Describe 1 - 3 features you will add to the project.
 
 - **[Form-section]**
-- **[About-me]**
-- **[Contact-me]**
+- **[Contact-me Section]**
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
