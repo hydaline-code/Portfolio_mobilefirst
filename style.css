@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600;800&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
 
 body {
@@ -74,7 +75,8 @@ header {
   width: 100%;
 }
 
-.projects {
+.projects-cards {
+  display: grid;
   border: solid 1px rgb(0, 255, 76);
 }
 
@@ -91,51 +93,45 @@ header {
 .project1-img {
   background-image: url('./images/Rectangle\ 21.png ');
   background-size: 100% 100%;
-  width: 100%;
   height: 188px;
 }
 
 .project2-img {
   background-image: url('./images/Rectangle\ 21\ \(1\).png');
   background-size: 100% 100%;
-  width: 100%;
   height: 188px;
 }
 
 .project3-img {
   background-image: url('./images/Rectangle\ 21\ \(2\).png');
   background-size: 100% 100%;
-  width: 100%;
   height: 188px;
 }
 
 .project4-img {
   background-image: url('./images/Rectangle\ 21\ \(3\).png');
   background-size: 100% 100%;
-  width: 100%;
   height: 188px;
 }
 
 .project5-img {
   background-image: url('./images/Rectangle\ 21\ \(4\).png');
   background-size: 100% 100%;
-  width: 100%;
   height: 188px;
 }
 
 .project6-img {
   background-image: url('./images/Rectangle\ 21\ \(5\).png');
   background-size: 100% 100%;
-  width: 100%;
   height: 188px;
 }
 
 .project-des {
-  width: 375px;
-  height: 200px;
-  padding: 1.2rem 0 0 0;
+  width: 100%;
   background: #1a2236;
-  border: 0.333333px solid rgba(255, 255, 255, 0.1);
+  display: flex;
+  flex-direction: column;
+  column-gap: 1rem;
 }
 
 .sub-title {
@@ -154,10 +150,11 @@ header {
   list-style: none;
   display: flex;
   flex-direction: row;
+  justify-content: space-evenly;
   margin: 1.3rem 5rem 0 0;
 }
 
-ul > li {
+.project-des > ul > li {
   background: #98dede;
   font-family: 'Poppins', sans-serif;
   font-style: normal;
@@ -167,19 +164,19 @@ ul > li {
   padding: 0.5rem 0 0 0.7rem;
 }
 
-ul > li:nth-child(1) {
+.project-des > ul > li:nth-child(1) {
   width: 69px;
   height: 20px;
   margin-right: 0.5rem;
 }
 
-ul > li:nth-child(2) {
+.project-des > ul > li:nth-child(2) {
   width: 87px;
   height: 20px;
   margin-right: 0.5rem;
 }
 
-ul > li:nth-child(3) {
+.project-des > ul > li:nth-child(3) {
   width: 74px;
   height: 20px;
 }
@@ -198,13 +195,120 @@ ul > li:nth-child(3) {
   background: #1a2236;
 }
 
+.aboutme-cards {
+  display: grid;
+  gap: 1rem;
+  padding: 2rem 0 2rem 0;
+}
+
+.aboutme-title {
+  font-family: 'Playfair Display', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 50px;
+  line-height: 100%;
+  margin : 3rem 1.3rem 1rem 1.3rem; 
+}
+
+.aboutme-p {
+  width: 340px;
+  height: 120px;
+  margin : 0 1.3rem 0 1.3rem; 
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  color: #1a2236;
+  line-height: 21px;
+  margin: 0 0.8rem 0 1.3rem;
+}
+
+.aboutme-btn {
+  width: 340px;
+  height: 50px;
+  margin : 0 1.3rem 0 1.3rem; 
+  background: #1a2236;
+  font-family: 'Poppins', sans-serif;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  border: none;
+}
+
+span {
+  margin-right: 1.5rem;
+}
+
+.aboutme-techs {
+  margin : 0 1.3rem 0 1.3rem;
+  width: 338px;
+  height: 338px;
+  padding-top: 1rem;
+  background: #1c528a;
+  position: relative;
+}
+
+.aboutme-techs-title {
+  text-align: left;
+  margin: 3.5rem  0 2rem 3.5rem;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 20px;
+  line-height: 30px;
+  color: #fff;
+}
+
+.aboutme-framew {
+  margin : 0 1.3rem 0 1.3rem;
+  width: 338px;
+  height: 338px;
+  padding-top: 1rem;
+  background: #e2505c;
+  position: relative;
+}
+
+.aboutme-skills {
+  margin : 0 1.3rem 0 1.3rem;
+  width: 338px;
+  height: 338px;
+  padding-top: 1rem;
+  background: #febf52;
+  position: relative;
+}
+
+.techs ,
+.framew,
+.skills {
+  text-align: left;
+  margin-left: 2rem;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+  font-style: normal;
+  line-height: 27px;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  column-gap: 1rem;
+  align-items: flex-start;
+}
+
+.logo-corner {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
 @media screen and (min-width: 768px) {
   .headline-p {
     width: 100%;
     height: 10%;
   }
 
-  .headline-btn {
+  .headline-btn,
+  .aboutme-btn {
     width: 95%;
   }
 
@@ -227,5 +331,22 @@ ul > li:nth-child(3) {
   .project1-img {
     width: 100%;
     background-size: 100% 100%;
+  }
+
+  .aboutme-techs,
+  .aboutme-framew,
+  .aboutme-skills {
+    width: 100%;
+    margin-right: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .aboutme-cards {
+    padding-right: 1rem;
+  }
+
+  .aboutme-p {
+    width: 100%;
   }
 }
