@@ -77,7 +77,12 @@ header {
 
 .projects-cards {
   display: grid;
-  border: solid 1px rgb(0, 255, 76);
+  grid-template-columns: repeat(1,1fr);
+}
+
+.projects-card {
+  display: flex;
+  flex-direction: column;
 }
 
 .project-title {
