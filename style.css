@@ -80,7 +80,7 @@ header {
   grid-template-columns: repeat(1,1fr);
 }
 
-.projects-card {
+.project-card {
   display: flex;
   flex-direction: column;
 }
