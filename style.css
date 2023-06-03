@@ -195,10 +195,23 @@ header {
   background: #1a2236;
 }
 
+.btn-project :hover {
+  background: #fff;
+  color: #1a2236;
+  border: 1px solid #1a2236;
+}
+
+.btn-project :checked {
+  background: #fff;
+  border: 2px solid #1a2236;
+}
+
 .aboutme-cards {
   display: grid;
+  grid-template-columns: repeat(1, 1fr);
   gap: 1rem;
   padding: 2rem 0 2rem 0;
+  list-style: none;
 }
 
 .aboutme-title {
@@ -233,6 +246,22 @@ header {
   font-weight: 500;
   line-height: 24px;
   border: none;
+}
+
+.aboutme-btn:hover {
+  background: #fff;
+  color: #1a2236;
+  border: 1px solid #1a2236;
+}
+
+.aboutme-btn > img:hover {
+  background-color: #1a2236;
+  border: 1px solid #1a2236;
+}
+
+.aboutme-btn :checked {
+  background: #fff;
+  border: 2px solid #1a2236;
 }
 
 span {
@@ -281,7 +310,7 @@ span {
 .framew,
 .skills {
   text-align: left;
-  margin-left: 2rem;
+  margin-left: 1rem;
   font-family: 'Poppins', sans-serif;
   font-weight: 600;
   font-size: 18px;
@@ -292,12 +321,38 @@ span {
   flex-direction: column;
   column-gap: 1rem;
   align-items: flex-start;
+  list-style: inside;
 }
 
 .logo-corner {
   position: absolute;
   bottom: 0;
-  right: 0;
+  left: 69.8%;
+  background-image: url("./images/ic_skills.png");
+  background-repeat: no-repeat;
+  width: 102px;
+  height: 102px;
+}
+
+.logo-corner2 {
+  position: absolute;
+  bottom: 0;
+  left: 70%;
+  background-image: url("./images/ic_framework.png");
+  background-repeat: no-repeat;
+  width: 102px;
+  height: 102px;
+  background-size: contain;
+}
+
+.logo-corner1 {
+  position: absolute;
+  bottom: 0;
+  left: 70%;
+  background-image: url("./images/ic_languages_mob.png");
+  background-repeat: no-repeat;
+  width: 102px;
+  height: 102px;
 }
 
 @media screen and (min-width: 768px) {
@@ -348,5 +403,11 @@ span {
 
   .aboutme-p {
     width: 100%;
+  }
+
+  .logo-corner1,
+  .logo-corner,
+  .logo-corner2 {
+    left: 86.4%;
   }
 }
