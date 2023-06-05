@@ -51,10 +51,11 @@ Linter was applied so as to have style bug-free codes.
 <!-- Features -->
 
 ### Key Features <a name="key-features"></a>
-
+ <summary>Form section</summary>
+  
  Improving the portfolio by working on :
- - **[My project section]**
- - **[About-me]**
+ - **[Contact-me form]**
+ 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
   
 
@@ -108,8 +109,8 @@ $ git clone git@github.com:myaccount/project_to clone.git
 
 Describe 1 - 3 features you will add to the project.
 
-- **[Form-section]**
-- **[Contact-me Section]**
+- **[Responsiveness]**
+- **[Desktop version of the portfolio]**
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
