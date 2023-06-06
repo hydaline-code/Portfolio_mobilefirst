@@ -1,5 +1,9 @@
 .technologies {
-    display: grid;
-    row-gap: 2px;
+    width: 200px;
+}
+.technologies > li {
     list-style-type: none;
+    float: right;
+    margin-left: 1rem;
+    color: rgb(232, 90, 232);
 }
