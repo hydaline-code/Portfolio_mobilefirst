@@ -1,6 +1,8 @@
 .technologies {
     width: 200px;
-    background-color: grey;
+    border: 1px solid grey;
+    height: 50px;
+    
 }
 .technologies > li {
     list-style-type: none;
