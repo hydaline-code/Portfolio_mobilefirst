@@ -144,7 +144,8 @@ I would like to thank Microverse for this oppunity I get in improving myself pro
 
 ## 👥 Collaborators <a name="collaborators"></a>
 
-
+ 👥 Collaborator 1
+ 
 <!-- LICENSE -->
 
 ## 📝 License <a name="license"></a>
