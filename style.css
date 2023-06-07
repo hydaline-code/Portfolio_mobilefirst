@@ -67,7 +67,7 @@ header {
 }
 
 .headline-img {
-  height: 375px;
+  height: 200px;
   margin-top: 2rem;
   background-image: url("./images/image_geometry_2.png");
   background-repeat: no-repeat;
