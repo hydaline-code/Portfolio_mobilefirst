@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600;800&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
 
@@ -19,6 +19,10 @@ header {
 
 .menu > i {
   font-size: 25px;
+}
+
+.menu-d-list {
+  display: none;
 }
 
 .myname {
@@ -64,6 +68,11 @@ header {
 .headline-btn:hover {
   background: #fff;
   color: #1a2236;
+  border: 2px solid #1a2236;
+}
+
+.headline-btn:active {
+  border: 2px solid #1a2236;
 }
 
 .headline-img {
@@ -72,6 +81,10 @@ header {
   background-image: url("./images/image_geometry_2.png");
   background-repeat: no-repeat;
   background-size: contain;
+}
+
+.projects {
+  margin-top: 3rem;
 }
 
 .projects-cards {
@@ -483,13 +496,191 @@ input[id="mail"] {
   margin-right: 2rem;
 }
 
-@media screen and (min-width: 768px) {
-  .headline-p {
-    width: 100%;
-    height: 10%;
+@media screen and (min-width: 375px) and (max-width: 767px) {
+  .headline-img-d {
+    display: none;
   }
 
-  .headline-btn,
+  .headline-p-d {
+    display: none;
+  }
+
+  .project-cards {
+    display: none;
+  }
+
+  .project-d-header {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  header > .logo,
+  .menu {
+    display: none;
+  }
+
+  header {
+    justify-content: center;
+    border: 1px solid red;
+  }
+
+  .menu-d-list {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+  }
+
+  .menu-d-list > li {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+  }
+
+  .headline {
+    display: flex;
+    border: 1px solid red;
+    flex-direction: row;
+  }
+
+  .headline-d {
+    display: flex;
+    flex-direction: column;
+    padding-left: 12%;
+    padding-top: 4%;
+    border: 1px solid red;
+    gap: 3rem;
+    align-content: flex-start;
+    flex-grow: 0.5;
+  }
+
+  .myname {
+    font-size: 110px;
+    width: 484px;
+    height: 100px;
+    margin-left: 1rem;
+  }
+
+  .headline-p {
+    display: none;
+  }
+
+  .headline-btn {
+    width: 254px;
+    height: 70px;
+    margin-left: 1.5rem;
+  }
+
+  .headline-p-d {
+    width: 484px;
+    margin-left: 1.5rem;
+    margin-right: 0.75rem;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    color: #1a2236;
+    line-height: 21px;
+    letter-spacing: -0.01em;
+  }
+
+  .headline-img-d {
+    flex: 2;
+  }
+
+  .projects-cards {
+    display: none;
+  }
+
+  .project-d-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border: 1px solid red;
+    margin-top: 7%;
+  }
+
+  .project-title {
+    flex: 0.5;
+    width: 398px;
+    height: 190px;
+    font-size: 110px;
+    transform: rotate(-90deg);
+  }
+
+  .project-des-d {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    height: 353px;
+    background: rgba(26, 34, 54, 0.95);
+    backdrop-filter: blur(12px);
+    padding-left: 4rem;
+  }
+
+  .sub-title-d {
+    width: 726px;
+    height: 70px;
+    color: #fff;
+    margin: 2rem 0 0 2.5rem;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 60px;
+  }
+
+  .project-des-d > ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    gap: 1.5rem;
+  }
+
+  .project-des-d > ul > li {
+    background: #98dede;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 80%;
+    padding-top: 1rem;
+    text-align: center;
+  }
+
+  .project-des-d > ul > li:nth-child(1) {
+    width: 130px;
+    height: 30px;
+    margin-right: 0.5rem;
+  }
+
+  .project-des-d > ul > li:nth-child(2) {
+    width: 170px;
+    height: 30px;
+    margin-right: 0.5rem;
+  }
+
+  .project-des-d > ul > li:nth-child(3) {
+    width: 150px;
+    height: 30px;
+  }
+
+  .project1-img-d {
+    background-image: url('./images/Rectangle\ 21.png ');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 270px;
+    width: 100%;
+  }
+
+  .img-d {
+    height: 50%;
+  }
+
+  .project-card-d {
+    flex: 1.5;
+  }
+
   .aboutme-btn,
   .form-btn {
     width: 95%;
@@ -497,19 +688,88 @@ input[id="mail"] {
 
   .headline-img {
     background-size: cover;
+    display: none;
   }
 
   .projects {
     width: 100%;
   }
 
-  .project-des {
-    width: 100%;
-  }
-
   .project1-img {
     width: 100%;
     background-size: 100% 100%;
+  }
+
+  .projects-d-container {
+    border: 1px solid goldenrod;
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+
+  .projects-d-1 {
+    background-image: url('./images/Rectangle\ 21\ \(1\).png');
+    background-size: 100%;
+    height: 350px;
+    margin-top: 9.7%;
+    background-repeat: no-repeat;
+  }
+
+  .projects-d-2 {
+    background-image: url('./images/image-geometry_2.png');
+    background-size: 100%;
+    height: 409px;
+    background-repeat: no-repeat;
+    border: 1px solid red;
+  }
+
+  .projects-d-3 {
+    background-image: url('./images/Rectangle\ 25.png');
+    background-size: 100%;
+    height: 350px;
+    margin-top: 9.7%;
+    background-repeat: no-repeat;
+  }
+
+  .projects-d-4 {
+    border: 1px solid #0c0c0c;
+    grid-column: 1/4;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    
+  }
+
+  .projects-d-41 {
+    background-image: url('./images/Rectangle\ 27.png');
+    background-size: 100%;
+    height: 480px;
+    background-repeat: no-repeat;
+  }
+
+  .projects-d-42 {
+    background-image: url('./images/image-geometry_3.png');
+    background-size: 100% 70%;
+    background-repeat: no-repeat;
+    position: relative;
+    top: 30%;
+    
+  }
+
+  .projects-d-6 {
+    grid-column: 1/4;
+    border: 2px solid hsl(0, 4%, 5%);
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .projects-d-61 {
+    background: yellow;
+    border: 2px solid #000000;
+  }
+
+  .projects-d-62 {
+    background: yellow;
+    border: 2px solid #000000;
+  }
   }
 
   .aboutme-techs,
