@@ -527,10 +527,9 @@ input[id="mail"] {
 
   .headline-btn,
   .form-btn,
-  .aboutme-btn{
+  .aboutme-btn {
     width: 95%;
   }
-  
 }
 
 @media screen and (min-width: 769px) {
@@ -632,7 +631,7 @@ input[id="mail"] {
     display: flex;
     justify-content: space-between;
     border: 1px solid rgb(0, 60, 255);
-    /*margin-top: 8%;*/
+    margin-top: 3%;
   }
 
   .project-card-d {
@@ -642,19 +641,13 @@ input[id="mail"] {
     flex: 0 1 80%;
   }
 
-  .img-d {
-    
-  }
-
   .img3-d {
     max-width: 100%;
   }
- 
+
   .project1-card-d {
     width: 100%;
     border: 2px solid rgb(0, 68, 128);
-
-    
   }
 
   .project1-img-d {
@@ -678,7 +671,7 @@ input[id="mail"] {
   .project-des-d {
     display: flex;
     flex-direction: column;
-    height:auto;
+    height: auto;
     background: rgba(26, 34, 54, 0.95);
     backdrop-filter: blur(12px);
     padding-left: 0.5rem;
@@ -757,23 +750,21 @@ input[id="mail"] {
 
   .projects-d-1 {
     background-image: url('./images/Rectangle\ 21\ \(1\).png');
-    background-size: 100%;
-    height: 350px;
+    background-size: 100% 100%;
     margin-top: 9.7%;
     background-repeat: no-repeat;
   }
 
   .projects-d-2 {
     background-image: url('./images/image-geometry_2.png');
-    background-size: 100%;
-    height: 409px;
+    background-size: 100% 100%;
     background-repeat: no-repeat;
     border: 1px solid red;
   }
 
   .projects-d-3 {
     background-image: url('./images/Rectangle\ 25.png');
-    background-size: 100%;
+    background-size: 100% 100%;
     height: 350px;
     margin-top: 9.7%;
     background-repeat: no-repeat;
@@ -784,23 +775,21 @@ input[id="mail"] {
     grid-column: 1/4;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    
   }
 
   .projects-d-41 {
     background-image: url('./images/Rectangle\ 27.png');
-    background-size: 100%;
+    background-size: 100% 100%;
     height: 480px;
     background-repeat: no-repeat;
   }
 
   .projects-d-42 {
     background-image: url('./images/image-geometry_3.png');
-    background-size: contain;
+    background-size: 100% 50%;
     background-repeat: no-repeat;
     position: relative;
-    top: 17%;
-    
+    top: 50%;
   }
 
   .projects-d-6 {
@@ -820,7 +809,7 @@ input[id="mail"] {
 
   .projects-d-62 {
     background-image: url('./images/Rectangle\ 47.png');
-    background-size: 75%;
+    background-size: 75% 75%;
     height: 405px;
     background-repeat: no-repeat;
   }
@@ -831,6 +820,7 @@ input[id="mail"] {
     position: absolute;
     right: 0;
     top: 38.5%;
+    display: none;
   }
 
   .project-des-d1 {
@@ -892,51 +882,48 @@ input[id="mail"] {
     background-image: url('./images/Rectangle\ 26.png');
     background-size: 100% 100%;
     background-repeat: no-repeat;
-   
     height: 150px;
   }
-
 }
 
-  .aboutme-techs,
-  .aboutme-framew,
-  .aboutme-skills {
-    width: 100%;
-    margin-right: 1rem;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
+.aboutme-techs,
+.aboutme-framew,
+.aboutme-skills {
+  width: 100%;
+  margin-right: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 
-  .aboutme-cards {
-    padding-right: 2.5rem;
-  }
+.aboutme-cards {
+  padding-right: 2.5rem;
+}
 
-  .aboutme-p,
-  .contact-para {
-    width: 100%;
-  }
+.aboutme-p,
+.contact-para {
+  width: 100%;
+}
 
-  .logo-corner1,
-  .logo-corner,
-  .logo-corner2 {
-    left: 69.4%;
-  }
+.logo-corner1,
+.logo-corner,
+.logo-corner2 {
+  left: 69.4%;
+}
 
-  .contact-form {
-    width: 100%;
-  }
+.contact-form {
+  width: 100%;
+}
 
-  .contact-footer {
-    width: 100%;
-  }
+.contact-footer {
+  width: 100%;
+}
 
-  .contact input[type="text"] {
-    width: 100%;
-  }
+.contact input[type="text"] {
+  width: 100%;
+}
 
-@media screen and (min-width : 1024px){
-  
+@media screen and (min-width: 1024px) {
   .myname {
     font-size: 110px;
     padding-left: 1rem;
@@ -974,11 +961,9 @@ input[id="mail"] {
   .project-des-d > ul > li:nth-child(3) {
     width: 150px;
   }
-
-
 }
-@media screen and (min-width:1200px) and (max-width: 1440px) {
 
+@media screen and (min-width: 1200px) and (max-width: 1440px) {
   .project1-img-d {
     height: 100%;
   }
@@ -1018,7 +1003,6 @@ input[id="mail"] {
   .project1-card-d {
     width: 100%;
     border: 2px solid rgb(0, 128, 43);
-    
   }
 
   .project-des-d {
@@ -1027,4 +1011,68 @@ input[id="mail"] {
     padding-left: 1rem;
   }
 
+  .projects-d-1 {
+    background-image: url('./images/Rectangle\ 21\ \(1\).png');
+    background-size: 100% 100%;
+    margin-top: 9.7%;
+    background-repeat: no-repeat;
+  }
+
+  .projects-d-2 {
+    background-image: url('./images/image-geometry_2.png');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    border: 1px solid red;
+  }
+
+  .projects-d-3 {
+    background-image: url('./images/Rectangle\ 25.png');
+    background-size: 100% 100%;
+    margin-top: 9.7%;
+    background-repeat: no-repeat;
+  }
+
+  .projects-d-4 {
+    border: 1px solid #0c0c0c;
+    grid-column: 1/4;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .projects-d-41 {
+    background-image: url('./images/Rectangle\ 27.png');
+    background-size: 100% 100%;
+    height: 480px;
+    background-repeat: no-repeat;
+  }
+
+  .projects-d-42 {
+    background-image: url('./images/image-geometry_3.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: relative;
+    top: 36%;
+  }
+
+  .projects-d-6 {
+    grid-column: 1/4;
+    border: 2px solid hsl(0, 4%, 5%);
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .projects-d-61 {
+    background-image: url('./images/image-geometry_5.png'), url('./images/image-geometry_4.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: left, right;
+    height: 125px;
+  }
+
+  .projects-d-62 {
+    background-image: url('./images/Rectangle\ 47.png');
+    background-size: 85%;
+    height: 505px;
+    background-repeat: no-repeat;
+  }
 }
