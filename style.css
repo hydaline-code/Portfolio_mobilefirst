@@ -373,7 +373,7 @@ span {
 
 .contact-form {
   background: #f9f9fa;
-  width: 375px;
+  width: 100%;
   height: 718px;
 }
 
@@ -417,10 +417,14 @@ span {
 }
 
 .contact input[type="text"] {
-  width: 330px;
+  width: 100%;
   height: 52px;
   background: #fff;
   border-radius: 4px;
+}
+
+.contact textarea[name="your message"] {
+  width: 100%;
 }
 
 input[id="fname"] {
@@ -482,7 +486,7 @@ input[id="mail"] {
   display: flex;
   flex-direction: column;
   background: #1a2236;
-  width: 375px;
+  width: 100%;
   height: 150px;
 }
 
@@ -509,7 +513,6 @@ input[id="mail"] {
 }
 
 @media screen and (min-width: 500px) and (max-width: 767px) {
-
   .headline-p-d {
     display: none;
   }
@@ -576,7 +579,7 @@ input[id="mail"] {
   .contact input[type="text"] {
     width: 100%;
   }
-  
+
   .techs,
   .framew {
     padding-right: 10%;
@@ -586,7 +589,7 @@ input[id="mail"] {
   .project-d-header,
   .img1,
   .img2,
-  .headline-p-d{
+  .headline-p-d {
     display: none;
   }
 
@@ -594,21 +597,7 @@ input[id="mail"] {
   .contact2-img {
     display: none;
   }
-
 }
-
-.contact-form {
-  width: 100%;
-}
-
-.contact-footer {
-  width: 100%;
-}
-
-.contact input[type="text"] {
-  width: 100%;
-}
-
 
 @media screen and (min-width: 769px) {
   .header-m > .logo,
@@ -676,7 +665,7 @@ input[id="mail"] {
 
   .img1 {
     width: 50%;
-    display:block;
+    display: block;
   }
 
   .img1-d {
@@ -730,7 +719,7 @@ input[id="mail"] {
   }
 
   .project-title {
-    font-family: 'Playfair Display';
+    font-family: 'Playfair Display', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 95px;
@@ -980,8 +969,6 @@ input[id="mail"] {
   .aboutme-framew,
   .aboutme-skills,
   .aboutme-img-d {
-    position:relative;
-    width: 100%;
     margin: 0 0 0 0;
     width: 100%;
     padding-top: 1rem;
@@ -990,7 +977,6 @@ input[id="mail"] {
 
   .logo-corner1,
   .logo-corner {
-    background-size: contain;
     height: 90px;
     left: 47.5%;
     background-repeat: no-repeat;
@@ -1081,7 +1067,7 @@ input[id="mail"] {
     background: #fff;
     border-radius: 4px;
   }
-  
+
   .contact textarea[name="your message"] {
     width: 170%;
   }
@@ -1115,7 +1101,7 @@ input[id="mail"] {
 
   .contact-title {
     font-size: 90px;
-    margin:1rem 0 0 0;
+    margin: 1rem 0 0 0;
   }
 
   .contact-para {
@@ -1129,14 +1115,14 @@ input[id="mail"] {
   }
 
   .get {
-    margin: 4rem ;
+    margin: 4rem;
   }
 
   .contact-social {
     margin: 5rem 10rem 0 0;
   }
-
 }
+
 @media screen and (min-width: 1024px) {
   .myname {
     font-size: 110px;
@@ -1178,10 +1164,6 @@ input[id="mail"] {
 }
 
 @media screen and (min-width: 1200px) and (max-width: 1440px) {
-  .project1-img-d {
-    height: 100%;
-  }
-
   .project-title {
     font-size: 110px;
   }
@@ -1349,13 +1331,11 @@ input[id="mail"] {
   .aboutme-framew,
   .aboutme-skills,
   .aboutme-img-d {
-    position:relative;
-    width: 100%;
+    position: relative;
     margin: 0 0 0 0;
     width: 338px;
     height: 338px;
     padding-top: 1rem;
-    position: relative;
   }
 
   .logo-corner1,
@@ -1365,7 +1345,6 @@ input[id="mail"] {
     height: 125px;
     left: 62.5%;
     background-repeat: no-repeat;
-    background-size: contain;
   }
 
   .techs,
@@ -1451,7 +1430,7 @@ input[id="mail"] {
     background: #fff;
     border-radius: 4px;
   }
-  
+
   .contact textarea[name="your message"] {
     width: 150%;
   }
@@ -1485,12 +1464,11 @@ input[id="mail"] {
 
   .contact-title {
     font-size: 110px;
-    margin:1rem 0 0 0;
+    margin: 1rem 0 0 0;
   }
 
   .contact-para {
     width: 80%;
     margin-bottom: 0 0 2rem 0;
   }
-
 }
