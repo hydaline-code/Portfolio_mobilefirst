@@ -6,7 +6,7 @@ body {
   margin: 0  auto;
 }
 
-header {
+.header-m {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -327,7 +327,6 @@ span {
 .framew,
 .skills {
   text-align: left;
-  margin-left: 1rem;
   font-family: 'Poppins', sans-serif;
   font-weight: 600;
   font-size: 18px;
@@ -337,18 +336,18 @@ span {
   display: flex;
   flex-direction: column;
   column-gap: 1rem;
-  align-items: flex-start;
   list-style: inside;
+  margin-left: 1rem;
 }
 
 .logo-corner {
   position: absolute;
   bottom: 0;
-  left: 69.8%;
+  left: 70%;
   background-image: url("./images/ic_skills.png");
   background-repeat: no-repeat;
-  width: 102px;
-  height: 102px;
+  width: 99px;
+  height: 99px;
 }
 
 .logo-corner2 {
@@ -357,8 +356,8 @@ span {
   left: 70%;
   background-image: url("./images/ic_framework.png");
   background-repeat: no-repeat;
-  width: 102px;
-  height: 102px;
+  width: 99px;
+  height: 99px;
   background-size: contain;
 }
 
@@ -368,8 +367,8 @@ span {
   left: 70%;
   background-image: url("./images/ic_languages_mob.png");
   background-repeat: no-repeat;
-  width: 102px;
-  height: 102px;
+  width: 99px;
+  height: 99px;
 }
 
 .contact-form {
@@ -496,10 +495,20 @@ input[id="mail"] {
   margin-right: 2rem;
 }
 
-@media screen and (min-width: 375px) and (max-width: 767px) {
-  .headline-img-d {
-    display: none;
-  }
+.project-card-d1,
+.project-d-header,
+.img1,
+.img2,
+.headline-p-d {
+  display: none;
+}
+
+.contact-logo1-d,
+.contact-logo2-d {
+  display: none;
+}
+
+@media screen and (min-width: 500px) and (max-width: 767px) {
 
   .headline-p-d {
     display: none;
@@ -530,17 +539,85 @@ input[id="mail"] {
   .aboutme-btn {
     width: 95%;
   }
+
+  .aboutme-techs,
+  .aboutme-framew,
+  .aboutme-skills {
+    width: 100%;
+    margin-right: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .aboutme-cards {
+    padding-right: 2.5rem;
+  }
+
+  .aboutme-p,
+  .contact-para {
+    width: 100%;
+  }
+
+  .logo-corner1,
+  .logo-corner,
+  .logo-corner2 {
+    left: calc(77.5% + 2rem);
+  }
+
+  .contact-form {
+    width: 100%;
+  }
+
+  .contact-footer {
+    width: 100%;
+  }
+
+  .contact input[type="text"] {
+    width: 100%;
+  }
+  
+  .techs,
+  .framew {
+    padding-right: 10%;
+  }
+
+  .project-card-d1,
+  .project-d-header,
+  .img1,
+  .img2,
+  .headline-p-d{
+    display: none;
+  }
+
+  .contact1-img,
+  .contact2-img {
+    display: none;
+  }
+
 }
 
+.contact-form {
+  width: 100%;
+}
+
+.contact-footer {
+  width: 100%;
+}
+
+.contact input[type="text"] {
+  width: 100%;
+}
+
+
 @media screen and (min-width: 769px) {
-  header > .logo,
+  .header-m > .logo,
   .menu {
     display: none;
   }
 
-  header {
+  .header-m {
     justify-content: center;
-    border: 1px solid red;
   }
 
   .menu-d-list {
@@ -558,7 +635,6 @@ input[id="mail"] {
 
   .headline {
     display: flex;
-    border: 1px solid rgb(0, 255, 64);
     justify-content: space-between;
   }
 
@@ -566,7 +642,6 @@ input[id="mail"] {
     display: flex;
     flex-direction: column;
     padding: 6% 0 15% 0;
-    border: 1px solid red;
     gap: 1rem;
     align-content: flex-start;
     margin: 0 0 0 3rem;
@@ -596,10 +671,12 @@ input[id="mail"] {
     color: #1a2236;
     line-height: 21px;
     letter-spacing: -0.01em;
+    display: block;
   }
 
   .img1 {
     width: 50%;
+    display:block;
   }
 
   .img1-d {
@@ -612,15 +689,12 @@ input[id="mail"] {
 
   .img2 {
     width: 100%;
+    display: block;
   }
 
   .img2-d {
     max-width: 100%;
     height: 100%;
-  }
-
-  .projects {
-    border: 2px solid black;
   }
 
   .projects-cards {
@@ -630,13 +704,11 @@ input[id="mail"] {
   .project-d-header {
     display: flex;
     justify-content: space-between;
-    border: 1px solid rgb(0, 60, 255);
     margin-top: 3%;
   }
 
   .project-card-d {
     display: flex;
-    border: 2px solid green;
     justify-content: space-between;
     flex: 0 1 80%;
   }
@@ -647,7 +719,6 @@ input[id="mail"] {
 
   .project1-card-d {
     width: 100%;
-    border: 2px solid rgb(0, 68, 128);
   }
 
   .project1-img-d {
@@ -743,7 +814,6 @@ input[id="mail"] {
   }
 
   .projects-d-container {
-    border: 1px solid goldenrod;
     display: grid;
     grid-template-columns: repeat(3, minmax(0, 1fr));
   }
@@ -759,7 +829,6 @@ input[id="mail"] {
     background-image: url('./images/image-geometry_2.png');
     background-size: 100% 100%;
     background-repeat: no-repeat;
-    border: 1px solid red;
   }
 
   .projects-d-3 {
@@ -771,7 +840,6 @@ input[id="mail"] {
   }
 
   .projects-d-4 {
-    border: 1px solid #0c0c0c;
     grid-column: 1/4;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -794,7 +862,6 @@ input[id="mail"] {
 
   .projects-d-6 {
     grid-column: 1/4;
-    border: 2px solid hsl(0, 4%, 5%);
     display: grid;
     grid-template-columns: repeat(2, 1fr);
   }
@@ -804,13 +871,13 @@ input[id="mail"] {
     background-repeat: no-repeat;
     background-size: contain;
     background-position: left, right;
-    height: 125px;
+    height: 65px;
   }
 
   .projects-d-62 {
     background-image: url('./images/Rectangle\ 47.png');
-    background-size: 75% 75%;
-    height: 405px;
+    background-size: 70% 100%;
+    height: 220px;
     background-repeat: no-repeat;
   }
 
@@ -819,17 +886,17 @@ input[id="mail"] {
     flex-direction: column-reverse;
     position: absolute;
     right: 0;
-    top: 38.5%;
-    display: none;
+    top: calc(33% + 1rem);
+    width: 33.5%;
   }
 
   .project-des-d1 {
     display: flex;
     flex-direction: column;
     height: 235px;
-    background: rgba(26, 34, 54, 0.95);
     backdrop-filter: blur(12px);
-    width: 620px;
+    width: 100%;
+    background: rgba(26, 34, 54, 0.95);
   }
 
   .sub-title-d1 {
@@ -840,7 +907,7 @@ input[id="mail"] {
     font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 700;
-    font-size: 30px;
+    font-size: 20px;
   }
 
   .project-des-d1 > ul {
@@ -855,74 +922,221 @@ input[id="mail"] {
     font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 300;
-    font-size: 20px;
+    font-size: 15px;
     line-height: 80%;
     padding-top: 1rem;
     text-align: center;
   }
 
   .project-des-d1 > ul > li:nth-child(1) {
-    width: 130px;
+    width: 100px;
     height: 30px;
-    margin-right: 0.5rem;
   }
 
   .project-des-d1 > ul > li:nth-child(2) {
-    width: 170px;
+    width: 120px;
     height: 30px;
-    margin-right: 0.5rem;
   }
 
   .project-des-d1 > ul > li:nth-child(3) {
     width: 50px;
     height: 30px;
+    margin-right: 1rem;
   }
 
   .project5-img-d {
     background-image: url('./images/Rectangle\ 26.png');
     background-size: 100% 100%;
     background-repeat: no-repeat;
-    height: 150px;
+    height: 300px;
   }
-}
 
-.aboutme-techs,
-.aboutme-framew,
-.aboutme-skills {
-  width: 100%;
-  margin-right: 1rem;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
+  .aboutme-cards {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    list-style: none;
+    gap: 0;
+    padding: 0 0 0 0;
+  }
 
-.aboutme-cards {
-  padding-right: 2.5rem;
-}
+  .aboutme-img-d {
+    background-image: url('./images/image_dots_with_teal.png');
+    background-repeat: no-repeat;
+    background-size: 65% 80%;
+    position: absolute;
+    left: 35%;
+    top: 21.5%;
+  }
 
-.aboutme-p,
-.contact-para {
-  width: 100%;
-}
+  .aboutme {
+    display: flex;
+    flex-direction: row-reverse;
+    padding: 4%;
+    justify-content: space-around;
+    gap: 1rem;
+  }
 
-.logo-corner1,
-.logo-corner,
-.logo-corner2 {
-  left: 69.4%;
-}
+  .aboutme-techs,
+  .aboutme-framew,
+  .aboutme-skills,
+  .aboutme-img-d {
+    position:relative;
+    width: 100%;
+    margin: 0 0 0 0;
+    width: 100%;
+    padding-top: 1rem;
+    position: relative;
+  }
 
-.contact-form {
-  width: 100%;
-}
+  .logo-corner1,
+  .logo-corner {
+    background-size: contain;
+    height: 90px;
+    left: 47.5%;
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
 
-.contact-footer {
-  width: 100%;
-}
+  .logo-corner2 {
+    left: 45%;
+  }
 
-.contact input[type="text"] {
-  width: 100%;
-}
+  .techs,
+  .framew,
+  .skills {
+    font-size: 14px;
+    margin: 0 0.2rem 0 0;
+  }
 
+  .aboutme-title {
+    font-size: 90px;
+  }
+
+  .aboutme-btn {
+    width: 254px;
+  }
+
+  .contact-form-d {
+    position: relative;
+    display: flex;
+    justify-content: space-evenly;
+    height: 950px;
+    background: #f9f9fa;
+  }
+
+  .contact-title-d {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+
+  .contact-card {
+    width: 70%;
+    padding: 0;
+    margin-top: 20%;
+  }
+
+  .contact {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 100%;
+    align-items: center;
+    gap: 0;
+  }
+
+  .contact-logo {
+    display: none;
+  }
+
+  .contact-logo1-d {
+    display: block;
+  }
+
+  .contact-logo2-d {
+    display: block;
+  }
+
+  .contact1-img {
+    max-width: 100%;
+    height: 26%;
+    position: absolute;
+    bottom: 0;
+    right: calc(80% - 1rem);
+    top: 0;
+  }
+
+  .contact-img {
+    max-width: 100%;
+    height: 26%;
+    position: absolute;
+    bottom: 0;
+    left: calc(72.5% - 1rem);
+    top: 74%;
+  }
+
+  .contact input[type="text"] {
+    width: 80%;
+    height: 52px;
+    background: #fff;
+    border-radius: 4px;
+  }
+  
+  .contact textarea[name="your message"] {
+    width: 170%;
+  }
+
+  .input-d1,
+  .input-d2,
+  .input-d3 {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    width: 100%;
+  }
+
+  .input-d1 {
+    margin-left: 2rem;
+  }
+
+  .input-d2 {
+    margin-right: 2rem;
+  }
+
+  .input-d3 {
+    margin-left: 2rem;
+  }
+
+  .form-btn {
+    width: 60%;
+    align-self: center;
+    margin-left: 53%;
+  }
+
+  .contact-title {
+    font-size: 90px;
+    margin:1rem 0 0 0;
+  }
+
+  .contact-para {
+    width: 80%;
+    margin-bottom: 0 0 2rem 0;
+  }
+
+  .contact-footer {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .get {
+    margin: 4rem ;
+  }
+
+  .contact-social {
+    margin: 5rem 10rem 0 0;
+  }
+
+}
 @media screen and (min-width: 1024px) {
   .myname {
     font-size: 110px;
@@ -988,12 +1202,11 @@ input[id="mail"] {
 
   .project-card-d {
     display: flex;
-    border: 2px solid green;
     flex: 0 1 75%;
   }
 
   .project1-img-d {
-    height: 140px;
+    height: 204px;
   }
 
   .sub-title-d {
@@ -1002,7 +1215,6 @@ input[id="mail"] {
 
   .project1-card-d {
     width: 100%;
-    border: 2px solid rgb(0, 128, 43);
   }
 
   .project-des-d {
@@ -1022,7 +1234,6 @@ input[id="mail"] {
     background-image: url('./images/image-geometry_2.png');
     background-size: 100% 100%;
     background-repeat: no-repeat;
-    border: 1px solid red;
   }
 
   .projects-d-3 {
@@ -1033,7 +1244,6 @@ input[id="mail"] {
   }
 
   .projects-d-4 {
-    border: 1px solid #0c0c0c;
     grid-column: 1/4;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -1056,7 +1266,6 @@ input[id="mail"] {
 
   .projects-d-6 {
     grid-column: 1/4;
-    border: 2px solid hsl(0, 4%, 5%);
     display: grid;
     grid-template-columns: repeat(2, 1fr);
   }
@@ -1075,4 +1284,213 @@ input[id="mail"] {
     height: 505px;
     background-repeat: no-repeat;
   }
+
+  .project-card-d1 {
+    display: flex;
+    flex-direction: column-reverse;
+    position: absolute;
+    right: 0;
+    top: 32.5%;
+    width: 33.5%;
+  }
+
+  .sub-title-d1 {
+    font-size: 30px;
+  }
+
+  .project-des-d1 > ul > li {
+    font-size: 20px;
+    padding-top: 1rem;
+  }
+
+  .project-des-d1 > ul > li:nth-child(1) {
+    width: 150px;
+    margin-right: 0.5rem;
+  }
+
+  .project-des-d1 > ul > li:nth-child(2) {
+    width: 130px;
+    margin-right: 0.5rem;
+  }
+
+  .project-des-d1 > ul > li:nth-child(3) {
+    height: 30px;
+  }
+
+  .project5-img-d {
+    height: 250px;
+  }
+
+  .aboutme-cards {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    list-style: none;
+    gap: 0;
+    padding: 0 0 0 0;
+  }
+
+  .aboutme-img-d {
+    background-image: url('./images/image_dots_with_teal.png');
+    background-repeat: no-repeat;
+    background-size: 70% 80%;
+    position: absolute;
+    left: 31%;
+    top: 21%;
+  }
+
+  .aboutme {
+    display: flex;
+    flex-direction: row-reverse;
+    padding: 5%;
+    justify-content: space-around;
+  }
+
+  .aboutme-techs,
+  .aboutme-framew,
+  .aboutme-skills,
+  .aboutme-img-d {
+    position:relative;
+    width: 100%;
+    margin: 0 0 0 0;
+    width: 338px;
+    height: 338px;
+    padding-top: 1rem;
+    position: relative;
+  }
+
+  .logo-corner1,
+  .logo-corner,
+  .logo-corner2 {
+    background-size: contain;
+    height: 125px;
+    left: 62.5%;
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+
+  .techs,
+  .framew,
+  .skills {
+    margin-bottom: 2rem;
+  }
+
+  .aboutme-title {
+    font-size: 110px;
+  }
+
+  .aboutme-p {
+    width: 446px;
+  }
+
+  .aboutme-btn {
+    width: 254px;
+  }
+
+  .contact-form-d {
+    position: relative;
+    display: flex;
+    justify-content: space-evenly;
+    height: 950px;
+    background: #f9f9fa;
+  }
+
+  .contact-title-d {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+
+  .contact-card {
+    width: 50%;
+    padding: 0;
+    margin-top: 10%;
+  }
+
+  .contact {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 100%;
+    align-items: center;
+    gap: 0;
+  }
+
+  .contact-logo {
+    display: none;
+  }
+
+  .contact-logo1-d {
+    display: block;
+  }
+
+  .contact-logo2-d {
+    display: block;
+  }
+
+  .contact1-img {
+    max-width: 100%;
+    height: auto;
+    position: absolute;
+    bottom: 0;
+    right: calc(83% - 1rem);
+    top: 0;
+  }
+
+  .contact-img {
+    max-width: 80%;
+    height: auto;
+    position: absolute;
+    bottom: 0;
+    left: calc(77% - 1rem);
+    top: 63%;
+  }
+
+  .contact input[type="text"] {
+    width: 60%;
+    height: 52px;
+    background: #fff;
+    border-radius: 4px;
+  }
+  
+  .contact textarea[name="your message"] {
+    width: 150%;
+  }
+
+  .input-d1,
+  .input-d2,
+  .input-d3 {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    width: 100%;
+  }
+
+  .input-d1 {
+    margin-left: 3rem;
+  }
+
+  .input-d2 {
+    margin-right: 4rem;
+  }
+
+  .input-d3 {
+    margin-left: 3rem;
+  }
+
+  .form-btn {
+    width: 60%;
+    align-self: center;
+    margin-left: 53%;
+  }
+
+  .contact-title {
+    font-size: 110px;
+    margin:1rem 0 0 0;
+  }
+
+  .contact-para {
+    width: 80%;
+    margin-bottom: 0 0 2rem 0;
+  }
+
 }
