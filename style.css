@@ -454,7 +454,7 @@ input[id="mail"] {
   border: 1px solid #1a2236;
 }
 
-.form-btn :checked {
+.form-btn:active {
   background: #fff;
   border: 2px solid #1a2236;
 }
