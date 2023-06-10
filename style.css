@@ -623,6 +623,7 @@ input[id="mail"] {
   }
 
   .headline {
+    margin-top: 3rem;
     display: flex;
     justify-content: space-between;
   }
@@ -630,14 +631,12 @@ input[id="mail"] {
   .headline-d {
     display: flex;
     flex-direction: column;
-    padding: 6% 0 15% 0;
-    gap: 1rem;
-    align-content: flex-start;
-    margin: 0 0 0 3rem;
+    padding: 7% 0 20% 7%;
+    gap: 3rem;
   }
 
   .myname {
-    font-size: 80px;
+    font-size: 110px;
   }
 
   .headline-p {
@@ -663,22 +662,26 @@ input[id="mail"] {
     display: block;
   }
 
+  .remove {
+    display: none;
+  }
+
   .img1 {
     width: 50%;
     display: block;
+    position: relative;
   }
 
   .img1-d {
-    max-width: 70%;
-    height: auto;
-    top: calc(80% + 1rem);
-    position: relative;
-    left: 30%;
+    max-width: 80%;
+    top: calc(82% + 1rem);
+    position: absolute;
+    left: 22%;
   }
 
   .img2 {
     width: 100%;
-    display: block;
+    display: inline;
   }
 
   .img2-d {
@@ -1061,7 +1064,8 @@ input[id="mail"] {
     top: 74%;
   }
 
-  .contact input[type="text"] {
+  .contact input[type="text"],
+  .contact input[type="email"] {
     width: 80%;
     height: 52px;
     background: #fff;
@@ -1121,6 +1125,14 @@ input[id="mail"] {
   .contact-social {
     margin: 5rem 10rem 0 0;
   }
+
+  .contact-footer > .get > li:nth-child(2) {
+    display: none;
+  }
+
+  .contact-footer > .get > li:nth-child(1) {
+    display: none;
+  }
 }
 
 @media screen and (min-width: 1024px) {
@@ -1137,7 +1149,7 @@ input[id="mail"] {
 
   .headline-d {
     gap: 3rem;
-    margin-left: 3rem;
+    margin-left: 12%;
   }
 
   .project1-img-d {
@@ -1161,6 +1173,30 @@ input[id="mail"] {
   .project-des-d > ul > li:nth-child(3) {
     width: 150px;
   }
+
+  .remove {
+    display: none;
+  }
+
+  .get > .get3 {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    margin: 1rem 0 4rem 0;
+  }
+
+  .get > .get3 > img {
+    color: #98dede;
+  }
+
+  .contact-social {
+    margin-left: 3rem;
+  }
+
+  .contact-social > li {
+    padding-left: 0.5rem;
+  }
 }
 
 @media screen and (min-width: 1200px) and (max-width: 1440px) {
@@ -1170,19 +1206,25 @@ input[id="mail"] {
 
   .headline-d {
     gap: 3rem;
-    padding: 8% 0 10% 0;
+    padding: 7% 0 14% 3%;
   }
 
   .img1-d {
-    left: 39%;
+    left: 24%;
     top: calc(86.8% - 4rem);
   }
 
   .headline-p-d {
     width: 500px;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    color: #1a2236;
   }
 
   .project-card-d {
+    margin-top: 2rem;
     display: flex;
     flex: 0 1 75%;
   }
@@ -1424,15 +1466,20 @@ input[id="mail"] {
     top: 63%;
   }
 
-  .contact input[type="text"] {
+  .contact input[type="text"],
+  .contact input[type="email"] {
     width: 60%;
     height: 52px;
     background: #fff;
     border-radius: 4px;
   }
 
+  .contact input[type="email"] {
+    margin-right: 20%;
+  }
+
   .contact textarea[name="your message"] {
-    width: 150%;
+    width: 132%;
   }
 
   .input-d1,
@@ -1445,15 +1492,11 @@ input[id="mail"] {
   }
 
   .input-d1 {
-    margin-left: 3rem;
-  }
-
-  .input-d2 {
-    margin-right: 4rem;
+    margin-left: 6rem;
   }
 
   .input-d3 {
-    margin-left: 3rem;
+    margin-left: 6rem;
   }
 
   .form-btn {
