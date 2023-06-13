@@ -282,6 +282,10 @@ span {
   position: relative;
 }
 
+.techs {
+  float: left;
+}
+
 .aboutme-techs-title {
   text-align: left;
   margin: 3.5rem  0 2rem 3.5rem;
@@ -300,10 +304,6 @@ span {
   padding-top: 1rem;
   background: #e2505c;
   position: relative;
-}
-
-.framew {
-   float: left;
 }
 
 .aboutme-skills {
