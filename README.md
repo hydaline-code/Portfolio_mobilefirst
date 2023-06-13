@@ -143,7 +143,7 @@ I would like to thank Microverse for this oppunity I get in improving myself pro
 <!-- COLLABORATORS -->
 
 ## 👥 Collaborators <a name="collaborators"></a>
-- GitHub: [https://github.com/NgachaIan]
+- GitHub: [https://github.com/Edgahkipkemoi]
 
 
 <!-- LICENSE -->
