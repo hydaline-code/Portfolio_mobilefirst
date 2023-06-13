@@ -404,7 +404,8 @@ span {
   color: #7d7c84;
 }
 
-.contact input[type="text"] {
+.contact input[type="text"],
+.contact input[type="email"] {
   width: 330px;
   height: 52px;
   background: #fff;
@@ -545,7 +546,9 @@ input[id="mail"] {
     width: 100%;
   }
 
-  .contact input[type="text"] {
+  .contact input[type="text"],
+  .contact input[type="email"] {
     width: 100%;
   }
+  
 }
