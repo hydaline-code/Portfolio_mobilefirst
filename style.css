@@ -509,7 +509,6 @@ span {
   display: none;
 }
 
-
 @media screen and (min-width: 500px) and (max-width: 767px) {
   .headline-p-d {
     display: none;
@@ -683,12 +682,11 @@ span {
     position: absolute;
     left: calc(49.5% + 1rem);
   }
-  
+
   .img2-d {
     width: 100%;
     height: 100%;
   }
-
 
   .projects-cards {
     display: none;
@@ -1151,7 +1149,6 @@ span {
   }
 }
 
-
 @media screen and (min-width: 1024px) {
   .contact input[type="email"] {
     width: 70%;
@@ -1169,7 +1166,6 @@ span {
     display: flex;
     max-width: 90%;
   }
-
 
   .img1-d {
     top: calc(75.3% + 1rem);
@@ -1191,7 +1187,7 @@ span {
   }
 
   .headline-p-d {
-   width: 68%;
+    width: 68%;
   }
 
   .project1-img-d {
@@ -1248,10 +1244,7 @@ span {
 @media screen and (min-width: 1200px) and (max-width: 1450px) {
   .contact input[type="email"] {
     width: 100%;
-  }
-
-  .contact input[type="text"] {
-    width: 9%;
+    margin-right: 20%;
   }
 
   .project-title {
@@ -1540,10 +1533,6 @@ span {
     height: 52px;
     background: #fff;
     border-radius: 4px;
-  }
-
-  .contact input[type="email"] {
-    margin-right: 20%;
   }
 
   .contact label[for="message"] {
