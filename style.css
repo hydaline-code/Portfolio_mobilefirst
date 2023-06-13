@@ -302,6 +302,10 @@ span {
   position: relative;
 }
 
+.framew {
+   float: left;
+}
+
 .aboutme-skills {
   margin: 0 1.3rem 0 1.3rem;
   width: 338px;
