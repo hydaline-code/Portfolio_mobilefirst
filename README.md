@@ -3,6 +3,7 @@
 <!-- TABLE OF CONTENTS -->
 
 # 📗 Table of Contents
+
 - [📖 About the Project](#about-project)
   - [🛠 Built With](#built-with)
     - [Tech Stack](#tech-stack)
@@ -57,6 +58,16 @@ Linter was applied so as to have style bug-free codes.
  - **[Contact-me form]**
  
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- LIVE DEMO -->
+
+## 🚀 Live Demo <a name="live-demo"></a>
+
+> Add a link to your deployed project.
+
+- [Live Demo Link](https://google.com)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
   
 
 <!-- GETTING STARTED -->
@@ -82,7 +93,7 @@ In order to run this project you need:
   cd my-folder
 $ git clone git@github.com:myaccount/project_to clone.git
 ```
--Install 
+### Install
 
    ```sh
   cd project_to clone
@@ -107,10 +118,12 @@ $ git clone git@github.com:myaccount/project_to clone.git
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-Describe 1 - 3 features you will add to the project.
-
 - **[Responsiveness]**
+  -Make the  mobile version of the portfolio responsive on all screens for the User not to get frustrated.
+
 - **[Desktop version of the portfolio]**
+  -The Desktop version will be implemented too for Users running the application on 
+  a laptop, it comes with some different features the the responsive mobile version.
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -145,6 +158,24 @@ I would like to thank Microverse for this oppunity I get in improving myself pro
 ## 👥 Collaborators <a name="collaborators"></a>
 - GitHub: [https://github.com/Edgahkipkemoi]
 
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- FAQ (optional) -->
+
+## ❓ FAQ (OPTIONAL) <a name="faq"></a>
+
+> Add at least 2 questions new developers would ask when they decide to use your project.
+
+- **[Question_1]**
+
+  - [Answer_1]
+
+- **[Question_2]**
+
+  - [Answer_2]
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 
 <!-- LICENSE -->
 
@@ -153,3 +184,6 @@ I would like to thank Microverse for this oppunity I get in improving myself pro
 This project is [MIT](./LICENSE) licensed.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<a name="readme-top"></a>
+
