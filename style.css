@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600;800&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
 body {
   margin: 0  auto;
@@ -444,6 +445,14 @@ input[id="mail"] {
   border: 2px solid #1a2236;
 }
 
+.contact-footer {
+  display: flex;
+  flex-direction: column;
+  background: #1a2236;
+  width: 375px;
+  height: 150px;
+}
+
 .get {
   color: #98dede;
   list-style: none;
@@ -454,25 +463,18 @@ input[id="mail"] {
   margin-right: 0.5rem;
 }
 
-.get > li:nth-child(1) {
+.contact-footer > .get > li:nth-child(1) > h3 {
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 24px;
+  padding-top: 0.2rem;
 }
 
 .get > li:nth-child(2) {
   margin-top: 1rem;
   font-size: 2rem;
-}
-
-.contact-footer {
-  display: flex;
-  flex-direction: column;
-  background: #1a2236;
-  width: 375px;
-  height: 150px;
 }
 
 .contact-social {
@@ -482,6 +484,10 @@ input[id="mail"] {
   gap: 1rem;
   justify-content: space-around;
   margin-right: 2rem;
+}
+
+.contact-social > li {
+  font-size: 1.5rem;
 }
 
 @media screen and (min-width: 768px) {
