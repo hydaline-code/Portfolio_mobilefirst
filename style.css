@@ -462,12 +462,13 @@ span {
   margin-right: 0.5rem;
 }
 
-.get > li:nth-child(1) {
+.contact-footer > .get > li:nth-child(1) > h3 {
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 24px;
+  padding-top: 0.2rem;
 }
 
 .get > li:nth-child(2) {
@@ -492,10 +493,13 @@ span {
   margin-right: 2rem;
 }
 
+.contact-social > li {
+  font-size: 1.5rem;
+}
+
 .project-card-d1,
 .project-d-header,
-.img1,
-.img2,
+.image-d,
 .headline-p-d {
   display: none;
 }
@@ -588,8 +592,7 @@ span {
 
   .project-card-d1,
   .project-d-header,
-  .img1,
-  .img2,
+  .image-d,
   .headline-p-d {
     display: none;
   }
