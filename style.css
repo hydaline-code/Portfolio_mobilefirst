@@ -37,10 +37,8 @@ body {
 }
 
 .headline-p {
-  width: 340px;
-  height: 120px;
-  margin-left: 1rem;
-  margin-right: 0.75rem;
+  margin-left: 1.5rem;
+  margin-right: 1rem;
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 400;
@@ -48,12 +46,13 @@ body {
   color: #1a2236;
   line-height: 21px;
   letter-spacing: -0.01em;
+  border: solid red 1px;
 }
 
 .headline-btn {
-  width: 340px;
+  width: 90%;
   height: 50px;
-  margin: 1.5rem 1rem 0 1rem;
+  margin: 1.5rem 1.5rem 0 1.5rem;
   background: #1a2236;
   font-family: 'Poppins', sans-serif;
   color: #fff;
@@ -79,7 +78,7 @@ body {
   margin-top: 2rem;
   background-image: url("./images/image_geometry_2.png");
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: 100% 100%;
 }
 
 .projects {
