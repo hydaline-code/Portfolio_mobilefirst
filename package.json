@@ -1,5 +1,6 @@
 {
   "devDependencies": {
+
     "hint": "^7.1.9",
     "stylelint": "^13.13.1",
     "stylelint-config-standard": "^21.0.0",
@@ -8,5 +9,6 @@
   },
   "dependencies": {
     "node-fetch": "^2.6.11"
+
   }
 }
