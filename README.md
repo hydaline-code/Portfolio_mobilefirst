@@ -13,8 +13,6 @@
   - [Setup](#setup)
   - [Prerequisites](#prerequisites)
   - [Install](#install)
-  - [Usage](#usage)
-  - [Run tests](#run-tests)
   - [Deployment](#triangular_flag_on_post-deployment)
 - [👥 Authors](#authors)
 - [🔭 Future Features](#future-features)
@@ -61,7 +59,6 @@ Linter was applied so as to have style bug-free codes.
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-> Add a link to your deployed project.
 
 - [Live Demo Link](https://google.com)
 
@@ -158,15 +155,13 @@ I would like to thank Microverse for this oppunity I get in improving myself pro
 
 ## ❓ FAQ (OPTIONAL) <a name="faq"></a>
 
-> Add at least 2 questions new developers would ask when they decide to use your project.
+- **[How can we reach you for a similar project]**
 
-- **[Question_1]**
+  - [Please contact me via my twitter account found above]
 
-  - [Answer_1]
+- **[Can it be done using a Frontend framework]**
 
-- **[Question_2]**
-
-  - [Answer_2]
+  - [Yes it can be done using a frontend framework of your choice]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
