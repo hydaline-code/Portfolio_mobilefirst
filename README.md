@@ -3,6 +3,7 @@
 <!-- TABLE OF CONTENTS -->
 
 # 📗 Table of Contents
+
 - [📖 About the Project](#about-project)
   - [🛠 Built With](#built-with)
     - [Tech Stack](#tech-stack)
@@ -51,16 +52,19 @@ Linter was applied so as to have style bug-free codes.
 <!-- Features -->
 
 ### Key Features <a name="key-features"></a>
- <summary>Desktop version</summary>
-
-  - **[User experience]** 
-
-  - **[Responsiveness]**
-  
- Improving the portfolio by working on making our portfolio completely responsive
- by implementing the desktop view for a better UX for clients.
+ <summary><h3>Desktop version</h3></summary>
+  <p>Implementation of the desktop versio of the portfolio to give a better User's experience.</p>
  
- 
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- LIVE DEMO -->
+
+## 🚀 Live Demo <a name="live-demo"></a>
+
+> Add a link to your deployed project.
+
+- [Live Demo Link](https://google.com)
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
   
 
@@ -87,7 +91,7 @@ In order to run this project you need:
   cd my-folder
 $ git clone git@github.com:myaccount/project_to clone.git
 ```
--Install 
+### Install
 
    ```sh
   cd project_to clone
@@ -112,10 +116,8 @@ $ git clone git@github.com:myaccount/project_to clone.git
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-Describe 1 - 3 features you will add to the project.
-
-- **[Dynamic portfolio site]**
-- **[Interactivity of the portfolio]**
+- **[Add Interactivity]**
+  The best way to really increase the user's experience is by making the project interactive.
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -148,7 +150,25 @@ I would like to thank Microverse for this oppunity I get in improving myself pro
 <!-- COLLABORATORS -->
 
 ## 👥 Collaborators <a name="collaborators"></a>
-- GitHub: [https://github.com/NgachaIan]
+- GitHub: [https://github.com/Edgahkipkemoi]
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- FAQ (optional) -->
+
+## ❓ FAQ (OPTIONAL) <a name="faq"></a>
+
+> Add at least 2 questions new developers would ask when they decide to use your project.
+
+- **[Question_1]**
+
+  - [Answer_1]
+
+- **[Question_2]**
+
+  - [Answer_2]
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
 <!-- LICENSE -->
@@ -158,3 +178,5 @@ I would like to thank Microverse for this oppunity I get in improving myself pro
 This project is [MIT](./LICENSE) licensed.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<a name="readme-top"></a>
