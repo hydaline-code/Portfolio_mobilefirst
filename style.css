@@ -194,7 +194,6 @@ body {
 .project-des > ul > li:nth-child(2) {
   width: 87px;
   height: 20px;
-  
 }
 
 .project-des > ul > li:nth-child(3) {
@@ -391,7 +390,6 @@ span {
 }
 
 .contact-para {
-  
   height: 63px;
   font-family: 'Poppins', sans-serif;
   font-style: normal;
@@ -539,7 +537,7 @@ span {
   .headline-img {
     background-size: 100% 100%;
   }
-  
+
   .headline-btn,
   .form-btn,
   .aboutme-btn {
