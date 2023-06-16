@@ -2,6 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600;800&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
 
+
 body {
   margin: 0  auto;
   overflow-x: hidden;
@@ -28,7 +29,7 @@ body {
 }
 
 .myname {
-  width: 100%;
+  width: 220px;
   font-family: 'Playfair Display', serif;
   font-style: normal;
   font-weight: 400;
@@ -89,6 +90,7 @@ body {
 .projects-cards {
   display: grid;
   grid-template-columns: repeat(1, 1fr);
+  
 }
 
 .project-card {
@@ -675,14 +677,15 @@ span {
   .image-d {
     display: flex;
     max-width: 100%;
+    position: relative;
   }
 
   .img1-d {
-    max-width: 100%;
+    max-width: 50%;
     height: auto;
-    top: calc(83% + 1rem);
+    top: calc(63% + 1rem);
     position: absolute;
-    left: calc(49.5% + 1rem);
+    left: calc(50.5% + 1rem);
   }
 
   .img2-d {
@@ -704,12 +707,15 @@ span {
     display: flex;
     justify-content: space-between;
     flex: 0 1 80%;
+    position: relative;
   }
 
   .img3-d {
     max-width: 100%;
+    left: -11em;
+    position: absolute;
   }
-
+  
   .project1-card-d {
     width: 100%;
   }
@@ -1272,9 +1278,23 @@ span {
   }
 
   .img1-d {
-    left: calc(54.5% - 3rem);
+    left: 10%;
     top: calc(100% - 3rem);
   }
+
+  .image-d {
+    display: flex;
+    max-width: 100%;
+    position: relative;
+  }
+
+  .img1-d {
+    max-width: 80%;
+    top: calc(79% + 1rem);
+    position: absolute;
+    left: -11rem;
+  }
+
 
   .headline-p-d {
     width: 500px;
@@ -1289,25 +1309,33 @@ span {
   .project-card-d {
     margin-top: 2rem;
     display: flex;
-    flex: 0 1 75%;
+    position: relative;
+  }
+
+  .project-title-d {
+    margin: 0 6% 10% 8%;
   }
 
   .project1-img-d {
-    height: 204px;
+    height: 206px;
+  }
+
+  .img3-d {
+    max-width: 100%;
+    left: -11em;
+    margin-top: 0.2rem;
+    position: absolute;
   }
 
   .sub-title-d {
     font-size: 60px;
-  }
-
-  .project1-card-d {
     width: 100%;
   }
 
   .project-des-d {
-    padding-right: 3rem;
     gap: 1rem;
-    padding-left: 1rem;
+    width: 60em;
+    height: auto;
   }
 
   .projects-d-1 {
@@ -1405,7 +1433,7 @@ span {
   }
 
   .project-des-d1 {
-    height: 260px;
+    height: 270px;
   }
 
   .project5-img-d {
