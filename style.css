@@ -4,7 +4,8 @@
 
 body {
   margin: 0  auto;
-  scrollbar-width: none;
+  overflow-x: hidden;
+  overflow-y: auto;
 }
 
 .header-m {
@@ -290,6 +291,7 @@ span {
 
 .aboutme-techs {
   margin: 0 1.3rem 0 1.3rem;
+  width: 338px;
   height: 338px;
   padding-top: 1rem;
   background: #1c528a;
@@ -309,6 +311,7 @@ span {
 
 .aboutme-framew {
   margin: 0 1.3rem 0 1.3rem;
+  width: 338px;
   height: 338px;
   padding-top: 1rem;
   background: #e2505c;
@@ -317,6 +320,7 @@ span {
 
 .aboutme-skills {
   margin: 0 1.3rem 0 1.3rem;
+  width: 338px;
   height: 338px;
   padding-top: 1rem;
   background: #febf52;
@@ -387,6 +391,7 @@ span {
   font-weight: 400;
   font-size: 50px;
   line-height: 100%;
+  margin: 0.3rem;
 }
 
 .contact-para {
@@ -403,6 +408,7 @@ span {
   display: flex;
   flex-direction: column;
   gap: 0.3rem;
+  padding-left: 0.1rem;
 }
 
 .contact label[for="name"],
@@ -566,22 +572,15 @@ span {
   .logo-corner1,
   .logo-corner,
   .logo-corner2 {
-    left: calc(71% + 2rem);
+    left: calc(73% + 2rem);
   }
 
   .contact-form {
+    
     width: 100%;
   }
 
   .contact-footer {
-    width: 100%;
-  }
-
-  .contact input[type="text"] {
-    width: 100%;
-  }
-
-  .contact input[type="email"] {
     width: 100%;
   }
 
