@@ -2,6 +2,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600;800&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
 
+html {
+  overflow-x: hidden;
+}
 
 body {
   margin: 0  auto;
@@ -1121,7 +1124,7 @@ span {
 
   .contact-para {
     width: 80%;
-    margin-bottom: 0 0 2rem 0;
+    margin: 0 0 2rem 0;
   }
 
   .contact-footer {
@@ -1181,7 +1184,7 @@ span {
 
   .img1-d {
     top: calc(75.3% + 1rem);
-    left: 43%;
+    left: -10.8em;
   }
 
   .img2-d {
@@ -1189,7 +1192,7 @@ span {
   }
 
   .headline-d {
-    margin-left: 1rem;
+    margin-left: 3rem;
     padding: 5% 0 10%  0;
   }
 
@@ -1202,12 +1205,33 @@ span {
     width: 68%;
   }
 
+  .project-des-d {
+    gap: 1rem;
+    width: 60rem;
+  }
+
+  .img3-d {
+    max-width: 50%;
+    left: -11em;
+    margin-top: 0.2rem;
+    position: absolute;
+  }
+
   .project1-img-d {
-    height: 125px;
+    height: 200px;
+    
   }
 
   .sub-title-d {
-    font-size: 40px;
+    font-size: 60px; 
+  }
+
+  .project-title-d {
+    margin: 0 0 13% 5%;
+  }
+
+  .project-des-d1 {
+    height: 225px;
   }
 
   .project-des-d > ul > li:nth-child(1) {
@@ -1229,7 +1253,7 @@ span {
   }
 
   .project-card-d1 {
-    top: 33.7%;
+    top: 38.7%;
   }
 
   .contact-social {
@@ -1241,19 +1265,37 @@ span {
   }
 
   .contact textarea[name="your message"] {
-    width: 160.5%;
+    width: 162%;
   }
 
   .contact1-img {
-    right: calc(83.9% - 1rem);
+    right: calc(86.5% - 1rem);
   }
 
   .contact-img {
-    left: calc(77.5% - 1rem);
+    left: calc(81.5% - 1rem);
   }
+
+  .contact label[for="message"] {
+    margin: 4% 0 0 1%;
+  }
+
+  .contact label[for="name"] {
+    margin: 4% 0 0 1%;
+  }
+
+  .contact label[for="email"] {
+    margin: 4% 0 0 1%;
+  }
+
+  .contact-para {
+    width: 90.8%;
+    margin: 2rem 0 0 0;
+  }
+
 }
 
-@media screen and (min-width: 1200px) and (max-width: 1450px) {
+@media screen and (min-width: 1250px) and (max-width: 1450px) {
   .contact input[type="email"] {
     width: 100%;
     margin-right: 20%;
@@ -1334,7 +1376,7 @@ span {
 
   .project-des-d {
     gap: 1rem;
-    width: 60em;
+    width: 60rem;
     height: auto;
   }
 
