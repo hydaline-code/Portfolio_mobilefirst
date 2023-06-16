@@ -643,7 +643,7 @@ span {
   .headline-d {
     display: flex;
     flex-direction: column;
-    padding: 7% 0 20% 7%;
+    padding: 7% 0 20% 5%;
   }
 
   .myname {
@@ -686,9 +686,9 @@ span {
   .img1-d {
     max-width: 50%;
     height: auto;
-    top: calc(63% + 1rem);
+    top: calc(78% + 1rem);
     position: absolute;
-    left: calc(50.5% + 1rem);
+    left: -10.8em;
   }
 
   .img2-d {
@@ -708,15 +708,14 @@ span {
 
   .project-card-d {
     display: flex;
-    justify-content: space-between;
-    flex: 0 1 80%;
     position: relative;
   }
 
   .img3-d {
-    max-width: 100%;
-    left: -11em;
+    max-width: 20%;
     position: absolute;
+    left: -8em;
+    margin-top: 0.5%;
   }
   
   .project1-card-d {
@@ -728,17 +727,16 @@ span {
     background-repeat: no-repeat;
     background-size: 100%;
     width: 100%;
-    height: 112px;
+    height: 136px;
   }
 
   .project-title-d {
     font-family: 'Playfair Display', sans-serif;
     font-style: normal;
     font-weight: 400;
-    font-size: 95px;
-    line-height: 100%;
+    font-size: 90px;
     transform: rotate(-90deg);
-    margin: 10% 0 0 13%;
+    margin-bottom: 17%;
   }
 
   .project-title {
@@ -748,10 +746,8 @@ span {
   .project-des-d {
     display: flex;
     flex-direction: column;
-    height: auto;
     background: rgba(26, 34, 54, 0.95);
     backdrop-filter: blur(12px);
-    padding-left: 0.5rem;
   }
 
   .sub-title-d {
@@ -762,7 +758,7 @@ span {
     font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 700;
-    font-size: 35px;
+    font-size: 50px;
   }
 
   .project-des-d > ul {
@@ -892,7 +888,7 @@ span {
     flex-direction: column-reverse;
     position: absolute;
     right: 0;
-    top: calc(32% + 1rem);
+    top: calc(33% + 1rem);
     width: 33.5%;
   }
 
@@ -1065,7 +1061,7 @@ span {
     height: 26%;
     position: absolute;
     bottom: 0;
-    right: calc(82% - 1rem);
+    right: calc(84% - 1rem);
     top: 0;
   }
 
@@ -1074,7 +1070,7 @@ span {
     height: 26%;
     position: absolute;
     bottom: 0;
-    left: calc(74.9% - 1rem);
+    left: calc(76.9% - 1rem);
     top: 74%;
   }
 
