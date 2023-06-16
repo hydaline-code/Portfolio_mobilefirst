@@ -93,7 +93,6 @@ body {
 .projects-cards {
   display: grid;
   grid-template-columns: repeat(1, 1fr);
-  
 }
 
 .project-card {
@@ -717,7 +716,7 @@ span {
     left: -8em;
     margin-top: 0.5%;
   }
-  
+
   .project1-card-d {
     width: 100%;
   }
@@ -1215,11 +1214,10 @@ span {
 
   .project1-img-d {
     height: 200px;
-    
   }
 
   .sub-title-d {
-    font-size: 60px; 
+    font-size: 60px;
   }
 
   .project-title-d {
@@ -1288,7 +1286,6 @@ span {
     width: 90.8%;
     margin: 2rem 0 0 0;
   }
-
 }
 
 @media screen and (min-width: 1250px) and (max-width: 1450px) {
@@ -1313,16 +1310,6 @@ span {
   .image-d {
     display: flex;
     max-width: 100%;
-  }
-
-  .img1-d {
-    left: 10%;
-    top: calc(100% - 3rem);
-  }
-
-  .image-d {
-    display: flex;
-    max-width: 100%;
     position: relative;
   }
 
@@ -1332,7 +1319,6 @@ span {
     position: absolute;
     left: -11rem;
   }
-
 
   .headline-p-d {
     width: 500px;
