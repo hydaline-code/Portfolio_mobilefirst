@@ -59,7 +59,6 @@ Linter was applied so as to have style bug-free codes.
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-
 - [Live Demo Link](https://google.com)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -113,9 +112,16 @@ $ git clone git@github.com:myaccount/project_to clone.git
 
 ## 🔭 Future Features <a name="future-features"></a>
 
+
 - **[Add Interactivity]**
   The best way to really increase the user's experience is by making the project interactive.
+  
+- **[Responsiveness]**
+  -Make the  mobile version of the portfolio responsive on all screens for the User not to get frustrated.
 
+- **[Desktop version of the portfolio]**
+  -The Desktop version will be implemented too for Users running the application on 
+  a laptop, it comes with some different features the the responsive mobile version.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -163,6 +169,7 @@ I would like to thank Microverse for this oppunity I get in improving myself pro
 
   - [Yes it can be done using a frontend framework of your choice]
 
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
@@ -175,3 +182,4 @@ This project is [MIT](./LICENSE) licensed.
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <a name="readme-top"></a>
+

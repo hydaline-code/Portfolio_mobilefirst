@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600;800&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
 html {
   overflow-x: hidden;
@@ -462,6 +463,14 @@ span {
   border: 2px solid #1a2236;
 }
 
+.contact-footer {
+  display: flex;
+  flex-direction: column;
+  background: #1a2236;
+  width: 375px;
+  height: 150px;
+}
+
 .get {
   color: #98dede;
   list-style: none;
@@ -527,11 +536,7 @@ span {
   .headline-p-d {
     display: none;
   }
-
-  .headline-p {
-    margin-right: 6%;
-  }
-
+  
   .project-cards {
     display: none;
   }
@@ -1562,7 +1567,7 @@ span {
   .contact-logo1-d {
     display: block;
   }
-
+  
   .contact-logo2-d {
     display: block;
   }
