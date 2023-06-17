@@ -636,6 +636,13 @@ span {
     font-weight: 400;
     font-size: 16px;
     color: #1a2236;
+    transition: 2s;
+  }
+
+  .menu-d-list > li:hover {   
+    text-decoration-style: double; 
+    color: orange;
+    font-size: 18px; 
   }
 
   .headline {
