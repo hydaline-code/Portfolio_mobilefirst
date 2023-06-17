@@ -13,8 +13,6 @@
   - [Setup](#setup)
   - [Prerequisites](#prerequisites)
   - [Install](#install)
-  - [Usage](#usage)
-  - [Run tests](#run-tests)
   - [Deployment](#triangular_flag_on_post-deployment)
 - [👥 Authors](#authors)
 - [🔭 Future Features](#future-features)
@@ -52,18 +50,14 @@ Linter was applied so as to have style bug-free codes.
 <!-- Features -->
 
 ### Key Features <a name="key-features"></a>
- <summary>Form section</summary>
-  
- Improving the portfolio by working on :
- - **[Contact-me form]**
+ <summary><h3>Desktop version</h3></summary>
+  <p>Implementation of the desktop versio of the portfolio to give a better User's experience.</p>
  
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- LIVE DEMO -->
 
 ## 🚀 Live Demo <a name="live-demo"></a>
-
-> Add a link to your deployed project.
 
 - [Live Demo Link](https://google.com)
 
@@ -118,13 +112,16 @@ $ git clone git@github.com:myaccount/project_to clone.git
 
 ## 🔭 Future Features <a name="future-features"></a>
 
+
+- **[Add Interactivity]**
+  The best way to really increase the user's experience is by making the project interactive.
+  
 - **[Responsiveness]**
   -Make the  mobile version of the portfolio responsive on all screens for the User not to get frustrated.
 
 - **[Desktop version of the portfolio]**
   -The Desktop version will be implemented too for Users running the application on 
   a laptop, it comes with some different features the the responsive mobile version.
-
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -164,15 +161,14 @@ I would like to thank Microverse for this oppunity I get in improving myself pro
 
 ## ❓ FAQ (OPTIONAL) <a name="faq"></a>
 
-> Add at least 2 questions new developers would ask when they decide to use your project.
+- **[How can we reach you for a similar project]**
 
-- **[Question_1]**
+  - [Please contact me via my twitter account found above]
 
-  - [Answer_1]
+- **[Can it be done using a Frontend framework]**
 
-- **[Question_2]**
+  - [Yes it can be done using a frontend framework of your choice]
 
-  - [Answer_2]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

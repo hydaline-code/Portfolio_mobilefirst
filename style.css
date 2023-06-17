@@ -1,13 +1,19 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600;800&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
-body {
-  margin: 0  auto;
+html {
+  overflow-x: hidden;
 }
 
-header {
+body {
+  margin: 0  auto;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+.header-m {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -22,23 +28,24 @@ header {
   font-size: 25px;
 }
 
+.menu-d-list {
+  display: none;
+}
+
 .myname {
-  width: 270px;
-  height: 80px;
+  width: 220px;
   font-family: 'Playfair Display', serif;
   font-style: normal;
   font-weight: 400;
   font-size: 50px;
   color: #1a2236;
-  margin-left: 1rem;
+  margin-left: 1.4rem;
   line-height: 100%;
 }
 
 .headline-p {
-  width: 340px;
-  height: 120px;
-  margin-left: 1rem;
-  margin-right: 0.75rem;
+  margin-left: 1.3rem;
+  margin-right: 4%;
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 400;
@@ -49,9 +56,9 @@ header {
 }
 
 .headline-btn {
-  width: 340px;
+  width: 89%;
   height: 50px;
-  margin: 1.5rem 1rem 0 1rem;
+  margin: 1.5rem 0 0 1.3rem;
   background: #1a2236;
   font-family: 'Poppins', sans-serif;
   color: #fff;
@@ -65,14 +72,23 @@ header {
 .headline-btn:hover {
   background: #fff;
   color: #1a2236;
+  border: 2px solid #1a2236;
+}
+
+.headline-btn:active {
+  border: 2px solid #1a2236;
 }
 
 .headline-img {
-  height: 375px;
+  height: 200px;
   margin-top: 2rem;
   background-image: url("./images/image_geometry_2.png");
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: 100% 100%;
+}
+
+.projects {
+  margin-top: 3rem;
 }
 
 .projects-cards {
@@ -91,44 +107,51 @@ header {
   font-weight: 400;
   font-size: 50px;
   line-height: 100%;
-  width: 181px;
-  margin-left: 1.3rem;
+  margin: 1rem 0 0 1.5rem;
+  height: 100px;
+  color: #1a2236;
 }
 
 .project1-img {
   background-image: url('./images/Rectangle\ 21.png ');
+  background-repeat: no-repeat;
   background-size: 100% 100%;
-  height: 188px;
+  height: 250px;
 }
 
 .project2-img {
   background-image: url('./images/Rectangle\ 21\ \(1\).png');
   background-size: 100% 100%;
-  height: 188px;
+  background-repeat: no-repeat;
+  height: 250px;
 }
 
 .project3-img {
   background-image: url('./images/Rectangle\ 21\ \(2\).png');
   background-size: 100% 100%;
-  height: 188px;
+  background-repeat: no-repeat;
+  height: 250px;
 }
 
 .project4-img {
   background-image: url('./images/Rectangle\ 21\ \(3\).png');
   background-size: 100% 100%;
-  height: 188px;
+  background-repeat: no-repeat;
+  height: 250px;
 }
 
 .project5-img {
   background-image: url('./images/Rectangle\ 21\ \(4\).png');
   background-size: 100% 100%;
-  height: 188px;
+  background-repeat: no-repeat;
+  height: 250px;
 }
 
 .project6-img {
   background-image: url('./images/Rectangle\ 21\ \(5\).png');
   background-size: 100% 100%;
-  height: 188px;
+  background-repeat: no-repeat;
+  height: 250px;
 }
 
 .project-des {
@@ -164,21 +187,19 @@ header {
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 300;
-  font-size: 10.4px;
-  line-height: 80%;
-  padding: 0.5rem 0 0 0.7rem;
+  font-size: 13px;
+  padding: 0.5rem;
+  margin-right: 1rem;
 }
 
 .project-des > ul > li:nth-child(1) {
   width: 69px;
   height: 20px;
-  margin-right: 0.5rem;
 }
 
 .project-des > ul > li:nth-child(2) {
   width: 87px;
   height: 20px;
-  margin-right: 0.5rem;
 }
 
 .project-des > ul > li:nth-child(3) {
@@ -241,7 +262,7 @@ header {
 }
 
 .aboutme-btn {
-  width: 340px;
+  width: 90%;
   height: 50px;
   margin: 0 1.3rem 0 1.3rem;
   background: #1a2236;
@@ -315,7 +336,6 @@ span {
 .framew,
 .skills {
   text-align: left;
-  margin-left: 1rem;
   font-family: 'Poppins', sans-serif;
   font-weight: 600;
   font-size: 18px;
@@ -325,18 +345,18 @@ span {
   display: flex;
   flex-direction: column;
   column-gap: 1rem;
-  align-items: flex-start;
   list-style: inside;
+  margin-left: 1rem;
 }
 
 .logo-corner {
   position: absolute;
   bottom: 0;
-  left: 69.8%;
+  left: 69%;
   background-image: url("./images/ic_skills.png");
   background-repeat: no-repeat;
-  width: 102px;
-  height: 102px;
+  width: 99px;
+  height: 99px;
 }
 
 .logo-corner2 {
@@ -345,29 +365,29 @@ span {
   left: 70%;
   background-image: url("./images/ic_framework.png");
   background-repeat: no-repeat;
-  width: 102px;
-  height: 102px;
+  width: 99px;
+  height: 99px;
   background-size: contain;
 }
 
 .logo-corner1 {
   position: absolute;
   bottom: 0;
-  left: 70%;
+  left: 69%;
   background-image: url("./images/ic_languages_mob.png");
   background-repeat: no-repeat;
-  width: 102px;
-  height: 102px;
+  width: 99px;
+  height: 99px;
 }
 
 .contact-form {
   background: #f9f9fa;
-  width: 375px;
+  width: 100%;
   height: 718px;
 }
 
 .contact-card {
-  padding: 1rem;
+  padding: 1.2rem;
 }
 
 .contact-title {
@@ -376,10 +396,10 @@ span {
   font-weight: 400;
   font-size: 50px;
   line-height: 100%;
+  margin: 0.3rem;
 }
 
 .contact-para {
-  width: 335px;
   height: 63px;
   font-family: 'Poppins', sans-serif;
   font-style: normal;
@@ -393,6 +413,7 @@ span {
   display: flex;
   flex-direction: column;
   gap: 0.3rem;
+  padding-left: 0.1rem;
 }
 
 .contact label[for="name"],
@@ -407,22 +428,19 @@ span {
 
 .contact input[type="text"],
 .contact input[type="email"] {
-  width: 330px;
+  width: 98%;
   height: 52px;
   background: #fff;
   border-radius: 4px;
-}
-
-input[id="fname"] {
   border: 1px solid #7d7c84;
 }
 
-input[id="mail"] {
-  border: 1px solid #7d7c84;
+.contact textarea[name="your message"] {
+  width: 97.5%;
 }
 
 .form-btn {
-  width: 340px;
+  width: 100%;
   height: 50px;
   background: #1a2236;
   font-family: 'Poppins', sans-serif;
@@ -477,6 +495,14 @@ input[id="mail"] {
   font-size: 2rem;
 }
 
+.contact-footer {
+  display: flex;
+  flex-direction: column;
+  background: #1a2236;
+  width: 100%;
+  height: 150px;
+}
+
 .contact-social {
   display: flex;
   flex-direction: row;
@@ -490,47 +516,61 @@ input[id="mail"] {
   font-size: 1.5rem;
 }
 
-@media screen and (min-width: 768px) {
-  .headline-p {
-    width: 100%;
-    height: 10%;
+.project-card-d1,
+.project-d-header,
+.image-d,
+.headline-p-d {
+  display: none;
+}
+
+.contact-logo1-d,
+.contact-logo2-d {
+  display: none;
+}
+
+.get > .get3 {
+  display: none;
+}
+
+@media screen and (min-width: 500px) and (max-width: 767px) {
+  .headline-p-d {
+    display: none;
+  }
+  
+  .project-cards {
+    display: none;
   }
 
-  .headline-btn,
-  .aboutme-btn,
-  .form-btn {
-    width: 95%;
+  .project-d-header {
+    display: none;
+  }
+
+  .projects-d-container {
+    display: none;
   }
 
   .headline-img {
-    background-size: cover;
-  }
-
-  .projects {
-    width: 100%;
-  }
-
-  .project-des {
-    width: 100%;
-  }
-
-  .project1-img {
-    width: 100%;
     background-size: 100% 100%;
+  }
+
+  .headline-btn,
+  .form-btn,
+  .aboutme-btn {
+    width: 95%;
   }
 
   .aboutme-techs,
   .aboutme-framew,
   .aboutme-skills {
     width: 100%;
-    margin-right: 1rem;
+    margin-right: 0.5rem;
     display: flex;
     flex-direction: column;
     align-items: center;
   }
 
   .aboutme-cards {
-    padding-right: 1rem;
+    padding-right: 2.5rem;
   }
 
   .aboutme-p,
@@ -541,7 +581,7 @@ input[id="mail"] {
   .logo-corner1,
   .logo-corner,
   .logo-corner2 {
-    left: 86.4%;
+    left: calc(73% + 2rem);
   }
 
   .contact-form {
@@ -552,8 +592,1058 @@ input[id="mail"] {
     width: 100%;
   }
 
+  .techs,
+  .framew {
+    padding-right: 10%;
+  }
+
+  .project-card-d1,
+  .project-d-header,
+  .image-d,
+  .headline-p-d {
+    display: none;
+  }
+
+  .contact1-img,
+  .contact2-img {
+    display: none;
+  }
+
+  .get > .get3 {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 769px) {
+  .header-m > .logo,
+  .menu {
+    display: none;
+  }
+
+  .header-m {
+    justify-content: center;
+  }
+
+  .menu-d-list {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+  }
+
+  .menu-d-list > li {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    color: #1a2236;
+  }
+
+  .headline {
+    margin: 2rem 0 0 0;
+    display: flex;
+    gap: 5rem;
+  }
+
+  .headline-d {
+    display: flex;
+    flex-direction: column;
+    padding: 7% 0 20% 5%;
+  }
+
+  .myname {
+    font-size: 110px;
+  }
+
+  .headline-p {
+    display: none;
+  }
+
+  .headline-btn {
+    width: 254px;
+    height: 70px;
+    margin-top: 1rem;
+    margin-left: 1.5rem;
+  }
+
+  .headline-p-d {
+    margin: 0 0 0 1.5rem;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    color: #1a2236;
+    line-height: 21px;
+    letter-spacing: -0.01em;
+    display: block;
+  }
+
+  .remove {
+    display: none;
+  }
+
+  .image-d {
+    display: flex;
+    max-width: 100%;
+    position: relative;
+  }
+
+  .img1-d {
+    max-width: 50%;
+    height: auto;
+    top: calc(78% + 1rem);
+    position: absolute;
+    left: -10.8em;
+  }
+
+  .img2-d {
+    width: 100%;
+    height: 100%;
+  }
+
+  .projects-cards {
+    display: none;
+  }
+
+  .project-d-header {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5%;
+  }
+
+  .project-card-d {
+    display: flex;
+    position: relative;
+  }
+
+  .img3-d {
+    max-width: 20%;
+    position: absolute;
+    left: -8em;
+    margin-top: 0.5%;
+  }
+
+  .project1-card-d {
+    width: 100%;
+  }
+
+  .project1-img-d {
+    background-image: url('./images/Rectangle\ 21.png ');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 100%;
+    height: 136px;
+  }
+
+  .project-title-d {
+    font-family: 'Playfair Display', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 90px;
+    transform: rotate(-90deg);
+    margin-bottom: 17%;
+  }
+
+  .project-title {
+    display: none;
+  }
+
+  .project-des-d {
+    display: flex;
+    flex-direction: column;
+    background: rgba(26, 34, 54, 0.95);
+    backdrop-filter: blur(12px);
+  }
+
+  .sub-title-d {
+    width: 100%;
+    height: 70px;
+    color: #fff;
+    margin: 2rem 0 0 2.5rem;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+  }
+
+  .project-des-d > ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    gap: 1.5rem;
+  }
+
+  .project-des-d > ul > li {
+    background: #98dede;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 80%;
+    padding-top: 1rem;
+    text-align: center;
+  }
+
+  .project-des-d > ul > li:nth-child(1) {
+    width: 110px;
+    height: 30px;
+  }
+
+  .project-des-d > ul > li:nth-child(2) {
+    width: 150px;
+    height: 30px;
+  }
+
+  .project-des-d > ul > li:nth-child(3) {
+    width: 130px;
+    height: 30px;
+    margin-right: 1rem;
+  }
+
+  .aboutme-btn,
+  .form-btn {
+    width: 95%;
+  }
+
+  .headline-img {
+    background-size: cover;
+    display: none;
+  }
+
+  .projects {
+    width: 100%;
+    position: relative;
+  }
+
+  .project1-img {
+    width: 100%;
+    background-size: 100% 100%;
+  }
+
+  .projects-d-container {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+
+  .projects-d-1 {
+    background-image: url('./images/Rectangle\ 21\ \(1\).png');
+    background-size: 100% 100%;
+    margin-top: 9.7%;
+    background-repeat: no-repeat;
+  }
+
+  .projects-d-2 {
+    background-image: url('./images/image-geometry_2.png');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+  }
+
+  .projects-d-3 {
+    background-image: url('./images/Rectangle\ 25.png');
+    background-size: 100% 100%;
+    height: 350px;
+    margin-top: 9.7%;
+    background-repeat: no-repeat;
+  }
+
+  .projects-d-4 {
+    grid-column: 1/4;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .projects-d-41 {
+    background-image: url('./images/Rectangle\ 27.png');
+    background-size: 100% 100%;
+    height: 480px;
+    background-repeat: no-repeat;
+  }
+
+  .projects-d-42 {
+    background-image: url('./images/image-geometry_3.png');
+    background-size: 100% 50%;
+    background-repeat: no-repeat;
+    position: relative;
+    top: 50%;
+  }
+
+  .projects-d-6 {
+    grid-column: 1/4;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .projects-d-61 {
+    background-image: url('./images/image-geometry_5.png'), url('./images/image-geometry_4.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: left, right;
+    height: 65px;
+  }
+
+  .projects-d-62 {
+    background-image: url('./images/Rectangle\ 47.png');
+    background-size: 70% 100%;
+    height: 220px;
+    background-repeat: no-repeat;
+  }
+
+  .project-card-d1 {
+    display: flex;
+    flex-direction: column-reverse;
+    position: absolute;
+    right: 0;
+    top: calc(33% + 1rem);
+    width: 33.5%;
+  }
+
+  .project-des-d1 {
+    display: flex;
+    flex-direction: column;
+    height: 235px;
+    backdrop-filter: blur(12px);
+    width: 100%;
+    background: rgba(26, 34, 54, 0.95);
+  }
+
+  .sub-title-d1 {
+    width: 100%;
+    height: 70px;
+    color: #fff;
+    margin: 2rem 0 0 2.5rem;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+  }
+
+  .project-des-d1 > ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    gap: 0.5rem;
+  }
+
+  .project-des-d1 > ul > li {
+    background: #98dede;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 80%;
+    padding-top: 1rem;
+    text-align: center;
+  }
+
+  .project-des-d1 > ul > li:nth-child(1) {
+    width: 100px;
+    height: 30px;
+  }
+
+  .project-des-d1 > ul > li:nth-child(2) {
+    width: 120px;
+    height: 30px;
+  }
+
+  .project-des-d1 > ul > li:nth-child(3) {
+    width: 50px;
+    height: 30px;
+    margin-right: 1rem;
+  }
+
+  .project5-img-d {
+    background-image: url('./images/Rectangle\ 26.png');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    height: 300px;
+  }
+
+  .aboutme-cards {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    list-style: none;
+    gap: 0;
+    padding: 0 0 0 0;
+  }
+
+  .aboutme-img-d {
+    background-image: url('./images/image_dots_with_teal.png');
+    background-repeat: no-repeat;
+    background-size: 65% 80%;
+    position: absolute;
+    left: 35%;
+    top: 21.5%;
+  }
+
+  .aboutme {
+    display: flex;
+    flex-direction: row-reverse;
+    padding: 4%;
+    justify-content: space-around;
+    gap: 1rem;
+  }
+
+  .aboutme-techs,
+  .aboutme-framew,
+  .aboutme-skills,
+  .aboutme-img-d {
+    margin: 0 0 0 0;
+    width: 100%;
+    padding-top: 1rem;
+    position: relative;
+  }
+
+  .logo-corner1,
+  .logo-corner {
+    height: 90px;
+    left: 47.5%;
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+
+  .logo-corner2 {
+    left: 45%;
+  }
+
+  .techs,
+  .framew,
+  .skills {
+    font-size: 14px;
+    margin: 0 0.2rem 0 0;
+  }
+
+  .aboutme-title {
+    font-size: 90px;
+  }
+
+  .aboutme-btn {
+    width: 254px;
+  }
+
+  .contact-form-d {
+    position: relative;
+    display: flex;
+    justify-content: space-evenly;
+    height: 950px;
+    background: #f9f9fa;
+  }
+
+  .contact-title-d {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+
+  .contact-card {
+    width: 70%;
+    padding: 0;
+    margin-top: 20%;
+  }
+
+  .contact {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 100%;
+    align-items: center;
+    gap: 0;
+  }
+
+  .contact-logo {
+    display: none;
+  }
+
+  .contact-logo1-d {
+    display: block;
+  }
+
+  .contact-logo2-d {
+    display: block;
+  }
+
+  .contact1-img {
+    max-width: 100%;
+    height: 26%;
+    position: absolute;
+    bottom: 0;
+    right: calc(84% - 1rem);
+    top: 0;
+  }
+
+  .contact-img {
+    max-width: 100%;
+    height: 26%;
+    position: absolute;
+    bottom: 0;
+    left: calc(76.9% - 1rem);
+    top: 74%;
+  }
+
   .contact input[type="text"],
   .contact input[type="email"] {
+    width: 80%;
+    height: 52px;
+    background: #fff;
+    border-radius: 4px;
+  }
+
+  .contact textarea[name="your message"] {
+    width: 170%;
+  }
+
+  .input-d1,
+  .input-d2,
+  .input-d3 {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
     width: 100%;
+  }
+
+  .input-d1 {
+    margin-left: 2rem;
+  }
+
+  .input-d2 {
+    margin-right: 2rem;
+  }
+
+  .input-d3 {
+    margin-left: 2rem;
+  }
+
+  .form-btn {
+    width: 69%;
+    align-self: center;
+    margin-left: 53%;
+  }
+
+  .contact-title {
+    font-size: 90px;
+    margin: 1rem 0 0 0;
+  }
+
+  .contact-para {
+    width: 80%;
+    margin: 0 0 2rem 0;
+  }
+
+  .contact-footer {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .get {
+    margin: 4rem;
+  }
+
+  .get > .get3 > span {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+  }
+
+  .contact-social {
+    padding: 3rem 5rem 0 0;
+  }
+
+  .contact-social > li {
+    padding-right: 1rem;
+  }
+
+  .contact-footer > .get > li:nth-child(2) {
+    display: none;
+  }
+
+  .contact-footer > .get > li:nth-child(1) {
+    display: none;
+  }
+
+  .get > .get3 {
+    display: block;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .contact input[type="email"] {
+    width: 70%;
+    height: 52px;
+    background: #fff;
+    border-radius: 4px;
+  }
+
+  .myname {
+    font-size: 110px;
+    height: 30%;
+  }
+
+  .image-d {
+    display: flex;
+    max-width: 90%;
+  }
+
+  .img1-d {
+    top: calc(75.3% + 1rem);
+    left: -10.8em;
+  }
+
+  .img2-d {
+    width: 100%;
+  }
+
+  .headline-d {
+    margin-left: 3rem;
+    padding: 5% 0 10%  0;
+  }
+
+  .headline-p-d,
+  .headline-btn {
+    margin-left: 2rem;
+  }
+
+  .headline-p-d {
+    width: 68%;
+  }
+
+  .project-des-d {
+    gap: 1rem;
+    width: 60rem;
+  }
+
+  .img3-d {
+    max-width: 50%;
+    left: -11em;
+    margin-top: 0.2rem;
+    position: absolute;
+  }
+
+  .project1-img-d {
+    height: 200px;
+  }
+
+  .sub-title-d {
+    font-size: 60px;
+  }
+
+  .project-title-d {
+    margin: 0 0 13% 5%;
+  }
+
+  .project-des-d1 {
+    height: 225px;
+  }
+
+  .project-des-d > ul > li:nth-child(1) {
+    width: 130px;
+    margin-right: 0.5rem;
+  }
+
+  .project-des-d > ul > li:nth-child(2) {
+    width: 170px;
+    margin-right: 0.5rem;
+  }
+
+  .project-des-d > ul > li:nth-child(3) {
+    width: 150px;
+  }
+
+  .remove {
+    display: none;
+  }
+
+  .project-card-d1 {
+    top: 38.7%;
+  }
+
+  .contact-social {
+    margin-left: 3rem;
+  }
+
+  .contact-social > li {
+    padding-left: 0.5rem;
+  }
+
+  .contact textarea[name="your message"] {
+    width: 162%;
+  }
+
+  .contact1-img {
+    right: calc(86.5% - 1rem);
+  }
+
+  .contact-img {
+    left: calc(81.5% - 1rem);
+  }
+
+  .contact label[for="message"] {
+    margin: 4% 0 0 1%;
+  }
+
+  .contact label[for="name"] {
+    margin: 4% 0 0 1%;
+  }
+
+  .contact label[for="email"] {
+    margin: 4% 0 0 1%;
+  }
+
+  .contact-para {
+    width: 90.8%;
+    margin: 2rem 0 0 0;
+  }
+}
+
+@media screen and (min-width: 1250px) and (max-width: 1450px) {
+  .contact input[type="email"] {
+    width: 100%;
+    margin-right: 20%;
+  }
+
+  .project-title {
+    font-size: 110px;
+  }
+
+  .headline {
+    margin: 4rem 0 0 0;
+    display: flex;
+  }
+
+  .headline-d {
+    padding: 7% 0 14%  10%;
+  }
+
+  .image-d {
+    display: flex;
+    max-width: 100%;
+    position: relative;
+  }
+
+  .img1-d {
+    max-width: 80%;
+    top: calc(79% + 1rem);
+    position: absolute;
+    left: -11rem;
+  }
+
+  .headline-p-d {
+    width: 500px;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    color: #1a2236;
+    margin-bottom: 0.5rem;
+  }
+
+  .project-card-d {
+    margin-top: 2rem;
+    display: flex;
+    position: relative;
+  }
+
+  .project-title-d {
+    margin: 0 6% 10% 8%;
+  }
+
+  .project1-img-d {
+    height: 206px;
+  }
+
+  .img3-d {
+    max-width: 100%;
+    left: -11em;
+    margin-top: 0.2rem;
+    position: absolute;
+  }
+
+  .sub-title-d {
+    font-size: 60px;
+    width: 100%;
+  }
+
+  .project-des-d {
+    gap: 1rem;
+    width: 60rem;
+    height: auto;
+  }
+
+  .projects-d-1 {
+    background-image: url('./images/Rectangle\ 21\ \(1\).png');
+    background-size: 100% 100%;
+    margin-top: 9.7%;
+    background-repeat: no-repeat;
+  }
+
+  .projects-d-2 {
+    background-image: url('./images/image-geometry_2.png');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+  }
+
+  .projects-d-3 {
+    background-image: url('./images/Rectangle\ 25.png');
+    background-size: 100% 100%;
+    margin-top: 9.7%;
+    background-repeat: no-repeat;
+  }
+
+  .projects-d-4 {
+    grid-column: 1/4;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .projects-d-41 {
+    background-image: url('./images/Rectangle\ 27.png');
+    background-size: 100% 100%;
+    height: 480px;
+    background-repeat: no-repeat;
+  }
+
+  .projects-d-42 {
+    background-image: url('./images/image-geometry_3.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: relative;
+    top: 36%;
+  }
+
+  .projects-d-6 {
+    grid-column: 1/4;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .projects-d-61 {
+    background-image: url('./images/image-geometry_5.png'), url('./images/image-geometry_4.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: left, right;
+    height: 125px;
+  }
+
+  .projects-d-62 {
+    background-image: url('./images/Rectangle\ 47.png');
+    background-size: 85%;
+    height: 505px;
+    background-repeat: no-repeat;
+  }
+
+  .project-card-d1 {
+    display: flex;
+    flex-direction: column-reverse;
+    position: absolute;
+    right: 0;
+    top: 34%;
+    width: 33.5%;
+  }
+
+  .sub-title-d1 {
+    font-size: 30px;
+  }
+
+  .project-des-d1 > ul > li {
+    font-size: 20px;
+    padding-top: 1rem;
+  }
+
+  .project-des-d1 > ul > li:nth-child(1) {
+    width: 150px;
+    margin-right: 0.5rem;
+  }
+
+  .project-des-d1 > ul > li:nth-child(2) {
+    width: 130px;
+    margin-right: 0.5rem;
+  }
+
+  .project-des-d1 > ul > li:nth-child(3) {
+    height: 30px;
+  }
+
+  .project-des-d1 {
+    height: 270px;
+  }
+
+  .project5-img-d {
+    height: 210px;
+  }
+
+  .aboutme-cards {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    list-style: none;
+    gap: 0;
+    padding: 0 0 0 0;
+  }
+
+  .aboutme-img-d {
+    background-image: url('./images/image_dots_with_teal.png');
+    background-repeat: no-repeat;
+    background-size: 70% 80%;
+    position: absolute;
+    left: 31%;
+    top: 21%;
+  }
+
+  .aboutme {
+    display: flex;
+    flex-direction: row-reverse;
+    padding: 5%;
+    justify-content: space-around;
+  }
+
+  .aboutme-techs,
+  .aboutme-framew,
+  .aboutme-skills,
+  .aboutme-img-d {
+    position: relative;
+    margin: 0 0 0 0;
+    width: 338px;
+    height: 338px;
+    padding-top: 1rem;
+  }
+
+  .logo-corner1,
+  .logo-corner,
+  .logo-corner2 {
+    background-size: contain;
+    height: 125px;
+    left: 62.5%;
+    background-repeat: no-repeat;
+  }
+
+  .techs,
+  .framew,
+  .skills {
+    margin-bottom: 2rem;
+  }
+
+  .aboutme-title {
+    font-size: 110px;
+  }
+
+  .aboutme-p {
+    width: 446px;
+  }
+
+  .aboutme-btn {
+    width: 254px;
+  }
+
+  .contact-form-d {
+    position: relative;
+    display: flex;
+    justify-content: space-evenly;
+    height: 950px;
+    background: #f9f9fa;
+  }
+
+  .contact-title-d {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+
+  .contact-card {
+    width: 50%;
+    padding: 0;
+    margin-top: 10%;
+  }
+
+  .contact {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 100%;
+    align-items: center;
+    gap: 0;
+  }
+
+  .contact-logo {
+    display: none;
+  }
+
+  .contact-logo1-d {
+    display: block;
+  }
+  
+  .contact-logo2-d {
+    display: block;
+  }
+
+  .contact1-img {
+    max-width: 100%;
+    height: auto;
+    position: absolute;
+    bottom: 0;
+    right: calc(83% - 1rem);
+    top: 0;
+  }
+
+  .contact-img {
+    max-width: 80%;
+    height: auto;
+    position: absolute;
+    bottom: 0;
+    left: calc(77% - 1rem);
+    top: 63%;
+  }
+
+  .contact input[type="text"],
+  .contact input[type="email"] {
+    width: 62%;
+    height: 52px;
+    background: #fff;
+    border-radius: 4px;
+  }
+
+  .contact label[for="message"] {
+    margin-top: 3%;
+  }
+
+  .contact textarea[name="your message"] {
+    width: 135%;
+  }
+
+  .input-d1,
+  .input-d2,
+  .input-d3 {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    width: 100%;
+  }
+
+  .input-d1 {
+    margin-left: 6rem;
+  }
+
+  .input-d3 {
+    margin-left: 6rem;
+  }
+
+  .form-btn {
+    width: 60%;
+    align-self: center;
+    margin-left: 53%;
+  }
+
+  .contact-title {
+    font-size: 110px;
+    margin: 1rem 0 0 0;
+  }
+
+  .contact-para {
+    width: 80%;
+    margin-bottom: 0 0 2rem 0;
+  }
+
+  .contact-social {
+    margin-right: 5rem;
+  }
+
+  .contact-social > li {
+    padding-right: 1rem;
   }
 }
