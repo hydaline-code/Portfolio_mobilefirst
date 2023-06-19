@@ -50,8 +50,10 @@ Linter was applied so as to have style bug-free codes.
 <!-- Features -->
 
 ### Key Features <a name="key-features"></a>
- <summary><h3>Desktop version</h3></summary>
-  <p>Implementation of the desktop versio of the portfolio to give a better User's experience.</p>
+
+ <summary><h3>Deployment</h3></summary>
+
+  <p>Deployment is rendering the project accessible to other servers aside from your local computer via a link through internet.</p>
  
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -59,7 +61,7 @@ Linter was applied so as to have style bug-free codes.
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo Link](https://google.com)
+- [Live Demo Link](https://hydaline-code.github.io/Portfolio_mobilefirst/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
   
@@ -112,16 +114,9 @@ $ git clone git@github.com:myaccount/project_to clone.git
 
 ## 🔭 Future Features <a name="future-features"></a>
 
+- **[Add Javascript]**
+ JavaScript (JS) is a cross-platform, used for web pages interactive. It allows developers to create dynamically updating content, use animations, pop-up menus, clickable buttons, control multimedia.
 
-- **[Add Interactivity]**
-  The best way to really increase the user's experience is by making the project interactive.
-  
-- **[Responsiveness]**
-  -Make the  mobile version of the portfolio responsive on all screens for the User not to get frustrated.
-
-- **[Desktop version of the portfolio]**
-  -The Desktop version will be implemented too for Users running the application on 
-  a laptop, it comes with some different features the the responsive mobile version.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
