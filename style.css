@@ -416,7 +416,7 @@ span {
   padding-left: 0.1rem;
 }
 
-.contact label[for="name"],
+.contact label[for="fname"],
 .contact label[for="email"],
 .contact label[for="message"] {
   font-family: 'Poppins', sans-serif;
