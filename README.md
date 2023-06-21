@@ -51,9 +51,13 @@ Linter was applied so as to have style bug-free codes.
 
 ### Key Features <a name="key-features"></a>
 
- <summary><h3>Deployment</h3></summary>
+ <summary><h2>Deployment</h2></summary>
 
   <p>Deployment is rendering the project accessible to other servers aside from your local computer via a link through internet.</p>
+
+   <summary><h2>Web Accessibility</h2></summary>
+
+  <p>Web accessibility is about anticipating the different needs of all sorts of people, understanding how all web users and the different ways they consume information with or without dissabilities.</p>
  
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
