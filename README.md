@@ -27,8 +27,8 @@
 
 # 📖 [Portfolio-Project-Deployment] <a name="about-project"></a>
 
-A portfolio is what defines and gives value to a professional software developer because it actually showcases what he/she can really do.Hence it is the very important and must be built with care.
-
+A portfolio defines and gives value to a professional software developer because it showcases what he/she can do.
+Hence it is very important and must be built with care.
 
 ## 🛠 Built With <a name="HTML & CSS"></a>
 
@@ -37,7 +37,6 @@ A portfolio is what defines and gives value to a professional software developer
 Built with HTML & CSS for a start
 
 Linter was applied so as to have style bug-free codes.
-
 
 <details>
   <summary>Client</summary>
@@ -50,14 +49,21 @@ Linter was applied so as to have style bug-free codes.
 <!-- Features -->
 
 ### Key Features <a name="key-features"></a>
-
+ <summary><h2>Main section</h2></summary>
+ <p>Shows the introduction of our portfolio and what it will be all about</p>
+ <summary><h2>Project section</h2></summary>
+ <p>Presentation showcase of your different accomplished projects</p>
+ <summary><h2>About-me section</h2></summary>
+ <p>This section presents ourselves briefly, thus informing the  readers about your professional background, key accomplishments, personal values, and any brands we may be associated with.</p>
+  <summary><h2>Responsive design implemented</h2></summary>
+  <p>It is a design approach that addresses the range of devices and device sizes, enabling automatic adaption to the screen, making user's experience nice.
+  Hence the desktop version has been implemented for this adaptation to bigger screens other than mobile.</p>
  <summary><h2>Deployment</h2></summary>
-
-  <p>Deployment is rendering the project accessible to other servers aside from your local computer via a link through internet.</p>
-
-   <summary><h2>Web Accessibility</h2></summary>
-
-  <p>Web accessibility is about anticipating the different needs of all sorts of people, understanding how all web users and the different ways they consume information with or without dissabilities.</p>
+  <p>Deployment is rendering the project accessible to other servers aside from your local computer via a link through the internet.</p>
+<summary><h2>Web Accessibility</h2></summary>
+  <p>Web accessibility is about anticipating the different needs of all sorts of people, understanding how all web users and the different ways they consume information with or without disabilities.</p>
+  
+  -[Video presentation] (https://www.loom.com/share/4c04677cbb6a4727b7c01fcfc1bdfebb)
  
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -74,7 +80,7 @@ Linter was applied so as to have style bug-free codes.
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
- The project repository is public so anyone can acess from it from my Github account.
+ The project repository is public so anyone can access it from my GitHub account.
 Then after clone it into your local machine
 
 ### Prerequisites
@@ -82,7 +88,7 @@ Then after clone it into your local machine
 In order to run this project you need:
 -A computer
 
--A github account 
+-A GitHub account 
 
 -A working browser installed
 
