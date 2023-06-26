@@ -1280,11 +1280,11 @@ span {
   }
 
   .contact label[for="name"] {
-    margin: 4% 0 0 1%;
+    margin: 0 0 0 1%;
   }
 
   .contact label[for="email"] {
-    margin: 4% 0 0 1%;
+    margin: 0 0 0 1%;
   }
 
   .contact-para {
