@@ -43,6 +43,7 @@ Linter was applied so as to have style bug-free codes.
   <ul>
     <li>Linter</li>
      <li>HTML & CSS</li>
+     <li>JAVASCRIPT</li>
   </ul>
 </details>
 
@@ -62,8 +63,14 @@ Linter was applied so as to have style bug-free codes.
   <p>Deployment is rendering the project accessible to other servers aside from your local computer via a link through the internet.</p>
 <summary><h2>Web Accessibility</h2></summary>
   <p>Web accessibility is about anticipating the different needs of all sorts of people, understanding how all web users and the different ways they consume information with or without disabilities.</p>
+
+  <summary><h2>Website interactivity using Javascript</h2></summary>
+  <p>Implementation of the mobile menu, on different clicks of the user, the hamburger menu appears and dissapears creating various menu options improving the UX.</p>
+
   
-  -[Video presentation] (https://www.loom.com/share/4c04677cbb6a4727b7c01fcfc1bdfebb)
+ # <summary>Project presentation video</summary>
+  - [Video Link](https://www.loom.com/share/4c04677cbb6a4727b7c01fcfc1bdfebb)
+  <hr>
  
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
