@@ -17,24 +17,27 @@
 <body>
   <header class="header-m">
     <div class="logo">
-      <img  src="./images/image_geometry_1.png" alt="logo image">
+      <img class="rmimg" src="./images/image_geometry_1.png" alt="logo image">
+      <img class="rmimg1" src="./images/image_geometry_menu_1.png" alt="logo menu">
    </div>
-    <nav>
+    <nav id="menu-nav">
       <div class="menu">
-           <i class="fa fa-bars"></i>
+           <i class="fa fa-bars open"></i>
+           <i class="fa fa-close closed"></i>
       </div>
-        <ul class="menu-d-list">
-          <li>Hello <hr></li>
-          <li>Portfolio</li>
-          <li>About</li>
-          <li>Contact</li>
+    
+        <ul id='menulist' class= "menu-d-list themenu">
+          <li class="item"> <a href="#headline">Hello <hr class="line"></a> </li>
+          <li class="item"> <a href="#projects">Portfolio</a> </li>
+          <li class="item"> <a href="#aboutme">About</a> </li>
+          <li class="item"> <a href="#contact-form"> Contact</a> </li>
         </ul>
       
     </nav>
   </header>
   <main>
   
-    <section class="headline"> 
+    <section class="headline"><a name="headline"></a> 
       <div class="headline-d">
 
         <h1 class="myname">Charlie 
@@ -61,6 +64,9 @@
       <div class="headline-img">
         
       </div>
+      <div class="addimg">
+        
+      </div>
       <div class="image-d">
         <img class="img1-d" src="./images/image_dots.png" alt="dotd image">
 
@@ -68,7 +74,7 @@
     </div>
 
     </section>
-  <section class="projects">
+  <section class="projects"><a name="projects"></a>
        <h2 class="project-title">Projects</h2>
         <div class="project-d-header">
           <h2 class="project-title-d">Projects</h2>
@@ -243,7 +249,7 @@
     </div>
  </section>
 
- <section class="aboutme">
+ <section class="aboutme"><a name="aboutme"></a>
   <div class="aboutme-head1ine-d">
       <h2 class="aboutme-title">
         About
@@ -303,7 +309,7 @@
  </section>
 
 
- <section class="contact-form">
+ <section class="contact-form"><a name="contact-form"></a>
 
   <div class="contact-form-d">
     
@@ -368,5 +374,8 @@
  </section>
 
   </main>
+
+  <script src="mobile.js"></script>
 </body>
+
 </html>
