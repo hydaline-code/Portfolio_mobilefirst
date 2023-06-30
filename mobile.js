@@ -15,10 +15,11 @@ const home = document.querySelector('.headline');
 
 hamburger.addEventListener('click', () => {
   menu1.classList.toggle('menu-d-list');
-  navmenu.style.cssText = 'margin-top:9rem; text-align:left; line-height:300%; margin-right:calc(70% + 4rem); font-size:20px; height:310px; padding-top:5rem';
+  navmenu.style.cssText = 'margin-top:5rem; text-align:left; line-height:300%; margin-right:calc(70% + 4.3rem); font-size:20px; height:195px; padding-top:5rem';
   menu.style.listStyle = 'none';
   menu.style.display = 'inline-block';
   first.style.display = 'none';
+  closebtn.style.cssText = 'font-weight: 100; ';
   closebtn.style.display = 'block';
   openbtn.style.display = 'none';
   headline.style.display = 'none';
@@ -27,7 +28,7 @@ hamburger.addEventListener('click', () => {
   img.style.display = 'none';
   img2.style.display = 'block';
   items.forEach((items) => {
-    items.style.cssText = 'color: inherit; text-decoration: none; text-align:center';
+    items.style.cssText = 'color: inherit; text-decoration: none; text-align:center; font-family: Poppins; font-weight: 400';
   });
 });
 
