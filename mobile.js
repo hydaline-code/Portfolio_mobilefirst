@@ -49,3 +49,169 @@ closebtn.addEventListener('click', menuclose);
 items.forEach((items) => {
   items.addEventListener('click', menuclose);
 });
+
+
+
+const projects_dynamic = [
+  {
+    name: 'Project-1 name goes here',
+    description:
+      'Lorem ipsum dolor sit amet,  consectetur adipiscing elit, sed do eiusmod tempor incididunt ut  labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi Ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisiLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.',
+      img: 'images/Rectangle 21.png',
+    technologies: [
+      {
+        name: 'HTML/CSS',
+      },
+
+      {
+        name: 'Ruby on Rails',
+      },
+
+      {
+        name: 'JavaScript',
+      },
+    ],
+  },
+  {
+    name: 'Project-2 name goes here',
+    description:
+      'Lorem ipsum dolor sit amet,  consectetur adipiscing elit, sed do eiusmod tempor incididunt ut  labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi Ut aliquip ex ea commodo consequat.  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi',
+
+      img: 'images/Rectangle 21 (1).png',
+    technologies: [
+      {
+        name: 'HTML/CSS',
+      },
+
+      {
+        name: 'Ruby on Rails',
+      },
+
+      {
+        name: 'JavaScript',
+      },
+    ],
+  },
+
+  {
+    name: 'Project-3 name goes here',
+    description:
+      'Lorem ipsum dolor sit amet,  consectetur adipiscing elit, sed do eiusmod tempor incididunt ut  labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi Ut aliquip ex ea commodo consequat.  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut <br>labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.',
+
+      img: 'images/Rectangle 21 (2).png',
+    technologies: [
+      {
+        name: 'HTML/CSS',
+      },
+
+      {
+        name: 'Ruby on Rails',
+      },
+
+      {
+        name: 'JavaScript',
+      },
+    ],
+  },
+  {
+    name: 'Project-4 name goes here',
+    description:
+      'Lorem ipsum dolor sit amet,  consectetur adipiscing elit, sed do eiusmod tempor incididunt ut  labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi Ut aliquip ex ea commodo consequat.  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut <br>labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi',
+
+      img: 'images/Rectangle 21 (3).png',
+    technologies: [
+      {
+        name: 'HTML/CSS',
+      },
+
+      {
+        name: 'Ruby on Rails',
+      },
+
+      {
+        name: 'JavaScript',
+      },
+    ],
+  },
+  {
+    name: 'Project-5 name goes here',
+    description:
+      'Lorem ipsum dolor sit amet,  consectetur adipiscing elit, sed do eiusmod tempor incididunt ut  labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi Ut aliquip ex ea commodo consequat.  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut <br>labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi',
+
+      img: 'images/Rectangle 21 (4).png',
+    technologies: [
+      {
+        name: 'HTML/CSS',
+      },
+
+      {
+        name: 'Ruby on Rails',
+      },
+
+      {
+        name: 'JavaScript',
+      },
+    ],
+  },
+  {
+    name: 'Project-6 name goes here',
+
+    description:
+      'Lorem ipsum dolor sit amet,  consectetur adipiscing elit, sed do eiusmod tempor incididunt ut  labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi Ut aliquip ex ea commodo consequat.  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut <br>labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi',
+
+      img: 'images/Rectangle 21 (5).png',
+
+    technologies: [
+      {
+        name: 'HTML/CSS',
+      },
+
+      {
+        name: ' Ruby on Rails',
+      },
+
+      {
+        name: 'JavaScript',
+      },
+    ],
+  },
+];
+
+
+
+projects_dynamic.forEach((project) => {
+  const project_dyn = document.querySelector('#updates');
+  const projImg = document.createElement('div');
+  const imgdiv = document.createElement('img');
+  const projDes = document.createElement('div');
+  const projectTitle = document.createElement('h2');
+  const uL = document.createElement('ul');
+  const btn = document.createElement('button');
+  
+
+  projDes.classList.add('project-des');
+  projImg.classList.add('project-img');
+  imgdiv.classList.add('project-imgd');
+  uL.classList.add('dynamic_list');
+  projectTitle.classList.add('sub-title');
+  btn.classList.add('btn-projects');
+  imgdiv.src = project.img;
+
+  projDes.appendChild(projectTitle);
+  project_dyn.appendChild(projImg);
+  project_dyn.appendChild(projDes);
+  projDes.appendChild(uL);
+  projDes.appendChild(btn);
+  projImg.appendChild(imgdiv);
+
+  projImg.style.cssText = 'background-size: 100% 100%; background-repeat: no-repeat; height: 250px';
+  
+
+  projectTitle.textContent = project.name;
+  btn.textContent = 'See this project  \u2192';
+
+  
+  
+
+
+});
