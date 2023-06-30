@@ -49,9 +49,7 @@ function menuclose() {
 
 closebtn.addEventListener('click', menuclose);
 
-//
-//});
-
-
-
+items.forEach(items => {
+  items.addEventListener('click', menuclose);
+});
 
