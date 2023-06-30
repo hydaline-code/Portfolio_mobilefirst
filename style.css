@@ -25,10 +25,25 @@ body {
 }
 
 .menu > i {
-  font-size: 25px;
+  font-size: 30px;
 }
 
 .menu-d-list {
+  display: none;
+}
+
+#menu-nav {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.rmimg1,
+.addimg {
+  display: none;
+}
+
+.menu > .closed {
   display: none;
 }
 
@@ -85,6 +100,19 @@ body {
   background-image: url("./images/image_geometry_2.png");
   background-repeat: no-repeat;
   background-size: 100% 100%;
+}
+
+.addimg {
+  height: 200px;
+  margin-top: 2rem;
+  background-image: url("./images/image_geometry_menu_2.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+.rmimg1 {
+  max-width: 130%;
+  max-height: 100%;
 }
 
 .projects {
@@ -629,6 +657,11 @@ span {
     font-size: 16px;
     color: #1a2236;
     transition: 2s;
+  }
+
+  .menu-d-list > li > a {
+    text-decoration: none;
+    color: inherit;
   }
 
   .menu-d-list > li:hover {
