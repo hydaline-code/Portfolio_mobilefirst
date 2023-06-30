@@ -210,8 +210,10 @@ projects_dynamic.forEach((project) => {
   projectTitle.textContent = project.name;
   btn.textContent = 'See this project  \u2192';
 
-  
-  
-
+  project.technologies.forEach((tech) => {
+    const tagLi = document.createElement('li');
+    uL.appendChild(tagLi);
+    tagLi.textContent = tech.name;
+  });
 
 });
