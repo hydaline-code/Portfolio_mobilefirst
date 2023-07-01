@@ -339,16 +339,14 @@ close2.addEventListener('click', () => {
   }
 });
 
-//const contactFormd = document.querySelector('.contact-form-d');
-const Formd = document.querySelector('.contact');
-const contactError1 = document.querySelector('.contact-error');
-const emailInput1 = document.querySelector('#email');
-
-function submitForm1(event) {
-  if (emailInput1.value !== emailInput1.value.toLowerCase()) {
-    contactError1.style.display = 'block';
-    contactError1.style.backgroundColor = 'red';
-    contactError1.textContent = 'Email address should be lowercase';
+const form = document.querySelector('form.contact');
+const email = document.querySelector('#email');
+const error = document.querySelector('.error');const isValidEmail = (inputEmail) => !/([A-Z])/g.test(inputEmail);form.addEventListener('submit', (event) => {
+  if (!isValidEmail(email.value)) {
     event.preventDefault();
+    error.innerText = 'The email should be lowercased';
+  } else {
+    error.innerText = '';
+    form.submit();
   }
-}
+});
