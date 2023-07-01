@@ -278,6 +278,7 @@ const removeimg = document.querySelector('.modall-img img');
 if (removeimg !== null) modalimage.removeChild(removeimg);
 
 
+
 function popdesktop() {
   const popupwindow = document.querySelector('.popup_window');
 
