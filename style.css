@@ -627,7 +627,7 @@ span {
   border: 0.516669px solid #1a2236;
   list-style: none;
   width: 74px;
-  height: 18px; 
+  height: 18px;
   text-align: center;
 }
 
@@ -675,7 +675,7 @@ span {
   font-size: 18px;
   text-align: center;
   color: #1a2236;
-  background: #FFF; 
+  background: #fff;
 }
 
 .liveimg {
@@ -2152,7 +2152,6 @@ span {
     text-align: center;
     width: 169px;
     height: 25px;
-    
   }
 
   .modal-lang ul > li:nth-child(2) {
@@ -2220,7 +2219,7 @@ span {
 
   .live:nth-child(2):hover {
     background: #fff;
-    color:#1a2236;
+    color: #1a2236;
     border: 1px solid #1a2236;
   }
 
