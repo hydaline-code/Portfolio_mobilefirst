@@ -206,7 +206,6 @@ projects_dynamic.forEach((project) => {
 
   projImg.style.cssText = 'background-size: 100% 100%; background-repeat: no-repeat; height: 250px';
   
-
   projectTitle.textContent = project.name;
   btn.textContent = 'See this project  \u2192';
 
