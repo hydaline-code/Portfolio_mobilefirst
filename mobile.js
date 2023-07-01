@@ -278,10 +278,11 @@ const removeimg = document.querySelector('.modall-img img');
 if (removeimg !== null) modalimage.removeChild(removeimg);
 
 
-
 function popdesktop() {
+  const popupsection = document.querySelector('.popsection');
   const popupwindow = document.querySelector('.popup_window');
 
+  popupsection.style.display = 'block';
   popupwindow.style.display = 'block';
   const popheading = document.querySelector('.update_heading');
   popheading.textContent = 'Project-desktop name goes here';
@@ -291,6 +292,7 @@ function popdesktop() {
   modalimage.appendChild(imgmodal);
   imgmodal.classList.add('modal-img');
   imgmodal.src = 'images/Group 105.png';
+  
 
   const modalpara = document.querySelector('.modal-p');
   const para = document.createElement('p');

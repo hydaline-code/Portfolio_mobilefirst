@@ -1323,15 +1323,13 @@ span {
   .get > .get3 {
     display: block;
   }
-  
-  .popsection
+
   .popup_window {
     display: none;
   }
 
   .popsection {
-    background: rgba(26, 34, 54, 0.95);
-    backdrop-filter: blur(12px); 
+    display: none;
   }
 
   .popup_window {
@@ -1339,7 +1337,7 @@ span {
     z-index: 3;
     width: 100%;
     height: 100%;
-    border:solid 4px #1a2236;
+    background: #fff;
     position: fixed;
     top: 50%;
     left: 50%;
@@ -1594,10 +1592,16 @@ span {
     display: none;
   }
 
+  .popsection {
+    display: none;
+  }
+  
   .popup_window {
     top: 0;
+    z-index: 3;
     width: 100%;
     height: 100%;
+    background: #fff;
     position: fixed;
     top: 50%;
     left: 50%;
@@ -2078,10 +2082,16 @@ span {
     display: none;
   }
 
+  .popsection {
+    display: none;
+  }
+
   .popup_window {
     top: 0;
+    z-index: 3;
     width: 100%;
     height: 100%;
+    background: #fff;
     position: fixed;
     top: 50%;
     left: 50%;
