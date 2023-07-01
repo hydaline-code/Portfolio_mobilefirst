@@ -338,3 +338,15 @@ close2.addEventListener('click', () => {
     divdesktop.removeChild(removearr1);
   }
 });
+
+const form = document.querySelector('form.contact');
+const email = document.querySelector('#email');
+const error = document.querySelector('.error'); const isValidEmail = (inputEmail) => !/([A-Z])/g.test(inputEmail); form.addEventListener('submit', (event) => {
+  if (!isValidEmail(email.value)) {
+    event.preventDefault();
+    error.innerText = 'The email should be lowercased';
+  } else {
+    error.innerText = '';
+    form.submit();
+  }
+});
