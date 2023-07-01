@@ -338,3 +338,17 @@ close2.addEventListener('click', () => {
     divdesktop.removeChild(removearr1);
   }
 });
+
+//const contactFormd = document.querySelector('.contact-form-d');
+const Formd = document.querySelector('.contact');
+const contactError1 = document.querySelector('.contact-error');
+const emailInput1 = document.querySelector('#email');
+
+function submitForm1(event) {
+  if (emailInput1.value !== emailInput1.value.toLowerCase()) {
+    contactError1.style.display = 'block';
+    contactError1.style.backgroundColor = 'red';
+    contactError1.textContent = 'Email address should be lowercase';
+    event.preventDefault();
+  }
+}
