@@ -682,7 +682,10 @@ span {
   margin-left: 4.5rem;
 }
 
-//
+.error {  
+  color: red; 
+  font-size: 0.75rem;
+}
 
 @media screen and (min-width: 500px) and (max-width: 767px) {
   .headline-p-d {
