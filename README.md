@@ -50,27 +50,12 @@ Linter was applied so as to have style bug-free codes.
 <!-- Features -->
 
 ### Key Features <a name="key-features"></a>
- <summary><h2>Main section</h2></summary>
- <p>Shows the introduction of our portfolio and what it will be all about</p>
- <summary><h2>Project section</h2></summary>
- <p>Presentation showcase of your different accomplished projects</p>
- <summary><h2>About-me section</h2></summary>
- <p>This section presents ourselves briefly, thus informing the  readers about your professional background, key accomplishments, personal values, and any brands we may be associated with.</p>
-  <summary><h2>Responsive design implemented</h2></summary>
-  <p>It is a design approach that addresses the range of devices and device sizes, enabling automatic adaption to the screen, making user's experience nice.
-  Hence the desktop version has been implemented for this adaptation to bigger screens other than mobile.</p>
- <summary><h2>Deployment</h2></summary>
-  <p>Deployment is rendering the project accessible to other servers aside from your local computer via a link through the internet.</p>
+
 <summary><h2>Web Accessibility</h2></summary>
   <p>Web accessibility is about anticipating the different needs of all sorts of people, understanding how all web users and the different ways they consume information with or without disabilities.</p>
 
   <summary><h2>Website interactivity using Javascript</h2></summary>
   <p>Implementation of the mobile menu, on different clicks of the user, the hamburger menu appears and dissapears creating various menu options improving the UX.</p>
-
-  
- # <summary>Project presentation video</summary>
-  - [Video Link](https://www.loom.com/share/4c04677cbb6a4727b7c01fcfc1bdfebb)
-  <hr>
  
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
