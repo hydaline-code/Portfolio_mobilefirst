@@ -281,7 +281,7 @@ body {
 .btn-project > button:hover {
   background: #fff;
   color: #1a2236;
-  border: 1px solid #1a2236; 
+  border: 1px solid #1a2236;
 }
 
 .btn-project > button :checked {
@@ -597,7 +597,7 @@ span {
 .popup-close {
   position: absolute;
   right: 0;
-  left: calc(80% -3rem);
+  left: calc(80% - 3rem);
   margin: 1rem;
 }
 
@@ -756,7 +756,7 @@ span {
   .popup_section {
     display: none;
   }
-  
+
   .popup_window {
     top: 0;
     position: fixed;
@@ -764,14 +764,13 @@ span {
     background: #fff;
     overflow: scroll;
   }
-  
+
   .popup-close {
     position: absolute;
     right: 0;
     left: 80%;
     margin: 1rem;
   }
-
 }
 
 @media screen and (min-width: 769px) {
@@ -1351,10 +1350,9 @@ span {
     font-size: 60px;
     line-height: 80%;
     margin: 2.5rem 3.5rem 1rem 2rem;
-}
+  }
 
   .popup_window {
-    top: 0;
     z-index: 3;
     width: 90vw;
     height: 90vh;
@@ -1371,7 +1369,7 @@ span {
     position: absolute;
     right: 0;
     left: 84%;
-    margin-top: 3.5rem;
+    margin-top: 1.5rem;
     width: 32px;
     height: 32px;
   }
@@ -1380,7 +1378,6 @@ span {
     display: flex;
     flex-direction: row;
     gap: 1rem;
-    
   }
 
   .modal-lang ul > li {
@@ -1401,11 +1398,10 @@ span {
     width: 100%;
   }
 
-   .modal-img {
+  .modal-img {
     width: 95%;
     height: auto;
   }
-
 
   .modal-p {
     margin: 5rem 1rem 2rem 12rem;
@@ -1419,7 +1415,6 @@ span {
     font-weight: 400;
     font-size: 18px;
     line-height: 27px;
-    text-align: justify;
   }
 
   .modal-button {
@@ -1427,7 +1422,6 @@ span {
     flex-direction: row;
     gap: 2rem;
     justify-content: center;
-    margin-top: 10%;
   }
 
   .live {
@@ -1481,7 +1475,6 @@ span {
     border: solid rebeccapurple;
     background: #febf52;
   }
-
 }
 
 @media screen and (min-width: 1024px) {
@@ -1619,9 +1612,8 @@ span {
   .popsection {
     display: none;
   }
-  
+
   .popup_window {
-    top: 0;
     z-index: 3;
     width: 90vw;
     height: 90vh;
@@ -1637,8 +1629,8 @@ span {
   .popup-close {
     position: absolute;
     right: 0;
-    left: 84%;
-    margin-top: 3.5rem;
+    left: 87%;
+    margin-top: 1.5rem;
     width: 32px;
     height: 32px;
   }
@@ -1647,7 +1639,6 @@ span {
     display: flex;
     flex-direction: row;
     gap: 1rem;
-    
   }
 
   .modal-lang ul > li {
@@ -1693,9 +1684,8 @@ span {
     flex-direction: row;
     gap: 2rem;
     justify-content: center;
-    margin-top: 25%;
+    margin-top: 10%;
   }
-
 
   .live {
     width: 246px;
@@ -1748,7 +1738,6 @@ span {
     border: solid rebeccapurple;
     background: #febf52;
   }
-
 }
 
 @media screen and (min-width: 1250px) and (max-width: 1450px) {
@@ -2114,7 +2103,6 @@ span {
   }
 
   .popup_window {
-    top: 0;
     z-index: 3;
     width: 90vw;
     height: 90vh;
@@ -2130,8 +2118,8 @@ span {
   .popup-close {
     position: absolute;
     right: 0;
-    left: 84%;
-    margin-top: 3.5rem;
+    left: 87%;
+    margin-top: 1.5rem;
     width: 32px;
     height: 32px;
   }
@@ -2140,7 +2128,6 @@ span {
     display: flex;
     flex-direction: row;
     gap: 1rem;
-   
   }
 
   .modal-lang ul > li {
@@ -2161,13 +2148,13 @@ span {
     width: 100%;
   }
 
-   .modal-img {
+  .modal-img {
     width: 95%;
     height: auto;
   }
 
   .modal-p {
-    margin: 5rem 1rem 2rem 13rem;
+    margin: 3rem 1rem 0 17rem;
     width: 700px;
     text-align: center;
   }
@@ -2182,10 +2169,9 @@ span {
 
   .modal-button {
     display: flex;
-    flex-direction: row;
     gap: 2rem;
     justify-content: center;
-    margin-top: 20%;
+    margin-right: 3.5rem;
   }
 
   .live {
@@ -2237,6 +2223,4 @@ span {
     border: solid rebeccapurple;
     background: #febf52;
   }
-
-  
 }

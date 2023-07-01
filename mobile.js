@@ -50,14 +50,12 @@ items.forEach((items) => {
   items.addEventListener('click', menuclose);
 });
 
-
-
-const projects_dynamic = [
+const projectsDynamic = [
   {
     name: 'Project-1 name goes here',
     description:
       'Lorem ipsum dolor sit amet,  consectetur adipiscing elit, sed do eiusmod tempor incididunt ut  labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi Ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisiLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.',
-      img: 'images/Rectangle 21.png',
+    img: 'images/Rectangle 21.png',
     technologies: [
       {
         name: 'HTML/CSS',
@@ -77,7 +75,7 @@ const projects_dynamic = [
     description:
       'Lorem ipsum dolor sit amet,  consectetur adipiscing elit, sed do eiusmod tempor incididunt ut  labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi Ut aliquip ex ea commodo consequat.  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi',
 
-      img: 'images/Rectangle 21 (1).png',
+    img: 'images/Rectangle 21 (1).png',
     technologies: [
       {
         name: 'HTML/CSS',
@@ -98,7 +96,7 @@ const projects_dynamic = [
     description:
       'Lorem ipsum dolor sit amet,  consectetur adipiscing elit, sed do eiusmod tempor incididunt ut  labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi Ut aliquip ex ea commodo consequat.  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut <br>labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.',
 
-      img: 'images/Rectangle 21 (2).png',
+    img: 'images/Rectangle 21 (2).png',
     technologies: [
       {
         name: 'HTML/CSS',
@@ -118,7 +116,7 @@ const projects_dynamic = [
     description:
       'Lorem ipsum dolor sit amet,  consectetur adipiscing elit, sed do eiusmod tempor incididunt ut  labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi Ut aliquip ex ea commodo consequat.  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut <br>labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi',
 
-      img: 'images/Rectangle 21 (3).png',
+    img: 'images/Rectangle 21 (3).png',
     technologies: [
       {
         name: 'HTML/CSS',
@@ -138,7 +136,7 @@ const projects_dynamic = [
     description:
       'Lorem ipsum dolor sit amet,  consectetur adipiscing elit, sed do eiusmod tempor incididunt ut  labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi Ut aliquip ex ea commodo consequat.  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut <br>labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi',
 
-      img: 'images/Rectangle 21 (4).png',
+    img: 'images/Rectangle 21 (4).png',
     technologies: [
       {
         name: 'HTML/CSS',
@@ -159,7 +157,7 @@ const projects_dynamic = [
     description:
       'Lorem ipsum dolor sit amet,  consectetur adipiscing elit, sed do eiusmod tempor incididunt ut  labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi Ut aliquip ex ea commodo consequat.  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut <br>labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi',
 
-      img: 'images/Rectangle 21 (5).png',
+    img: 'images/Rectangle 21 (5).png',
 
     technologies: [
       {
@@ -177,17 +175,14 @@ const projects_dynamic = [
   },
 ];
 
-
-
-projects_dynamic.forEach((project) => {
-  const project_dyn = document.querySelector('#updates');
+projectsDynamic.forEach((project) => {
+  const projectDyn = document.querySelector('#updates');
   const projImg = document.createElement('div');
   const imgdiv = document.createElement('img');
   const projDes = document.createElement('div');
   const projectTitle = document.createElement('h2');
   const uL = document.createElement('ul');
   const btn = document.createElement('button');
-  
 
   projDes.classList.add('project-des');
   projImg.classList.add('project-img');
@@ -198,14 +193,14 @@ projects_dynamic.forEach((project) => {
   imgdiv.src = project.img;
 
   projDes.appendChild(projectTitle);
-  project_dyn.appendChild(projImg);
-  project_dyn.appendChild(projDes);
+  projectDyn.appendChild(projImg);
+  projectDyn.appendChild(projDes);
   projDes.appendChild(uL);
   projDes.appendChild(btn);
   projImg.appendChild(imgdiv);
 
   projImg.style.cssText = 'background-size: 100% 100%; background-repeat: no-repeat; height: 250px';
-  
+
   projectTitle.textContent = project.name;
   btn.textContent = 'See this project  \u2192';
 
@@ -215,51 +210,47 @@ projects_dynamic.forEach((project) => {
     tagLi.textContent = tech.name;
   });
 
+  const popupwindow = document.querySelector('.popup_window');
 
+  btn.addEventListener('click', () => {
+    popupwindow.style.display = 'block';
+    const popheading = document.querySelector('.update_heading');
+    popheading.textContent = project.name;
 
-const popupwindow = document.querySelector('.popup_window');
+    const modalimage = document.querySelector('.modall-img');
+    const imgmodal = document.createElement('img');
+    modalimage.appendChild(imgmodal);
+    imgmodal.classList.add('modal-img');
+    imgmodal.src = 'images/Group 109.png';
 
-btn.addEventListener('click', () => {
-  popupwindow.style.display = 'block';
-  const popheading = document.querySelector('.update_heading');
-  popheading.textContent = project.name;
+    const modalpara = document.querySelector('.modal-p');
+    const para = document.createElement('p');
+    modalpara.appendChild(para);
+    para.textContent = project.description;
 
-  const modalimage = document.querySelector('.modall-img');
-  const imgmodal = document.createElement('img');
-  modalimage.appendChild(imgmodal);
-  imgmodal.classList.add('modal-img');
-  imgmodal.src = 'images/Group 109.png';
+    project.technologies.forEach((tech) => {
+      const modallang = document.querySelector('.modal-lang ul');
+      const langli = document.createElement('li');
+      modallang.appendChild(langli);
+      const Lia = document.createElement('a');
+      langli.appendChild(Lia);
+      Lia.textContent = tech.name;
+    });
+  });
 
-  const modalpara = document.querySelector('.modal-p');
-  const para = document.createElement('p');
-  modalpara.appendChild(para);
-  para.textContent = project.description;
+  const close2 = document.querySelector('.popup-close');
+  const modallang = document.querySelector('.modal-lang ul');
+  close2.addEventListener('click', () => {
+    popupwindow.style.display = 'none';
 
-  project.technologies.forEach((tech) => {
-    const modallang = document.querySelector('.modal-lang ul');
-    const langli = document.createElement('li');
-    modallang.appendChild(langli);
-    const Lia = document.createElement('a');
-    langli.appendChild(Lia);
-    Lia.textContent = tech.name;
+    const removeLi = document.querySelector('.modal-lang ul li ');
+    if (removeLi !== null) modallang.removeChild(removeLi);
+
+    const modalimage = document.querySelector('.modall-img');
+    const removeimg = document.querySelector('.modall-img img');
+    if (removeimg !== null) modalimage.removeChild(removeimg);
   });
 });
-
-const close2 = document.querySelector('.popup-close');
-const modallang = document.querySelector('.modal-lang ul');
-close2.addEventListener('click', () => {
-  popupwindow.style.display = 'none';
-
-  const removeLi = document.querySelector('.modal-lang ul li ');
-  if (removeLi !== null) modallang.removeChild(removeLi);
-
-  const modalimage = document.querySelector('.modall-img');
-  const removeimg = document.querySelector('.modall-img img');
-  if (removeimg !== null) modalimage.removeChild(removeimg);
-});
-
-});
-
 
 const desktoptech = ['HTML/CSS', ' Ruby on Rails', 'JavaScript'];
 const project2 = document.querySelector('.project-des-d');
@@ -277,7 +268,6 @@ const modalimage = document.querySelector('.modall-img');
 const removeimg = document.querySelector('.modall-img img');
 if (removeimg !== null) modalimage.removeChild(removeimg);
 
-
 function popdesktop() {
   const popupsection = document.querySelector('.popsection');
   const popupwindow = document.querySelector('.popup_window');
@@ -292,7 +282,6 @@ function popdesktop() {
   modalimage.appendChild(imgmodal);
   imgmodal.classList.add('modal-img');
   imgmodal.src = 'images/Group 105.png';
-  
 
   const modalpara = document.querySelector('.modal-p');
   const para = document.createElement('p');
@@ -324,8 +313,6 @@ function popdesktop() {
   }
 }
 
-
-
 btn1.addEventListener('click', popdesktop);
 btn2.addEventListener('click', popdesktop);
 
@@ -351,7 +338,4 @@ close2.addEventListener('click', () => {
   if (removearr1 !== null) {
     divdesktop.removeChild(removearr1);
   }
-
-
 });
-
