@@ -597,7 +597,7 @@ span {
 .popup-close {
   position: absolute;
   right: 0;
-  left: calc(80% - 3rem);
+  left: calc(75% - 2rem);
   margin: 1rem;
 }
 
@@ -626,8 +626,18 @@ span {
   color: #1a2236;
   border: 0.516669px solid #1a2236;
   list-style: none;
-  width: 70px;
+  width: 74px;
+  height: 18px; 
   text-align: center;
+}
+
+.modal-lang ul > li:nth-child(2) {
+  width: 87px;
+}
+
+.modal-img {
+  width: 100%;
+  height: auto;
 }
 
 .modall-img {
@@ -665,10 +675,11 @@ span {
   font-size: 18px;
   text-align: center;
   color: #1a2236;
+  background: #FFF; 
 }
 
 .liveimg {
-  margin-left: 4rem;
+  margin-left: 4.5rem;
 }
 
 @media screen and (min-width: 500px) and (max-width: 767px) {
@@ -2141,6 +2152,11 @@ span {
     text-align: center;
     width: 169px;
     height: 25px;
+    
+  }
+
+  .modal-lang ul > li:nth-child(2) {
+    width: 170px;
   }
 
   .modall-img {
@@ -2154,7 +2170,7 @@ span {
   }
 
   .modal-p {
-    margin: 3rem 1rem 0 17rem;
+    margin: 3rem 1rem 0 15rem;
     width: 700px;
     text-align: center;
   }
@@ -2170,8 +2186,8 @@ span {
   .modal-button {
     display: flex;
     gap: 2rem;
-    justify-content: center;
-    margin-right: 3.5rem;
+    justify-content: flex-start;
+    margin-left: 19%;
   }
 
   .live {
@@ -2193,6 +2209,18 @@ span {
   .live:hover {
     background: #1a2236;
     color: #fff;
+    border: 1px solid #1a2236;
+  }
+
+  .live:nth-child(2) {
+    background: #1a2236;
+    color: #fff;
+    border: 1px solid #1a2236;
+  }
+
+  .live:nth-child(2):hover {
+    background: #fff;
+    color:#1a2236;
     border: 1px solid #1a2236;
   }
 

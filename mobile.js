@@ -252,7 +252,7 @@ projectsDynamic.forEach((project) => {
   });
 });
 
-const desktoptech = ['HTML/CSS', ' Ruby on Rails', 'JavaScript'];
+const desktoptech = ['HTML/CSS', ' Ruby on  Rails', 'JavaScript'];
 const project2 = document.querySelector('.project-des-d');
 const project22 = document.querySelector('.project-des-d1');
 const btn1 = document.createElement('button');
@@ -317,7 +317,6 @@ btn1.addEventListener('click', popdesktop);
 btn2.addEventListener('click', popdesktop);
 
 const close2 = document.querySelector('.popup-close');
-// const modal-lang = document.querySelector('.modal-lang ul');
 
 close2.addEventListener('click', () => {
   const popupwindow = document.querySelector('.popup_window');
