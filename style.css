@@ -598,7 +598,7 @@ span {
   position: absolute;
   right: 0;
   left: calc(75% - 2rem);
-  margin: 1rem;
+  margin-top: 0.7rem;
 }
 
 .update_heading {
@@ -1373,17 +1373,15 @@ span {
     margin: 2.5rem 3.5rem 1rem 2rem;
   }
 
-  .popup_window {
-    z-index: 3;
-    width: 90vw;
-    height: 90vh;
-    background: #fff;
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    border: 5rem solid rgba(26, 34, 54, 0.95);
-    backdrop-filter: blur(5px);
+  .modal-button {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 1rem;
+    gap: 2rem;
+    justify-content: center;
+    margin-left: 7.5rem;
+    width: 40rem;
   }
 
   .popup-close {
@@ -1415,7 +1413,7 @@ span {
   }
 
   .modal-lang ul > li:nth-child(2) {
-    width: 172px;
+    width: 170px;
   }
 
   .modall-img {
@@ -1459,6 +1457,7 @@ span {
     font-size: 18px;
     text-align: center;
     color: #1a2236;
+    cursor: pointer;
   }
 
   .liveimg {
@@ -1654,7 +1653,7 @@ span {
   .popup-close {
     position: absolute;
     right: 0;
-    left: 87%;
+    left: calc(85% + 1.6rem);
     margin-top: 1.5rem;
     width: 32px;
     height: 32px;
@@ -1690,8 +1689,8 @@ span {
   }
 
   .modal-p {
-    margin: 5rem 1rem 2rem 13rem;
-    width: 700px;
+    margin: 5rem 1rem 2rem 15rem;
+    width: 600px;
     text-align: center;
   }
 
@@ -1709,7 +1708,9 @@ span {
     flex-direction: row;
     gap: 2rem;
     justify-content: center;
-    margin-top: 10%;
+    margin-top: 2rem;
+    width: 40rem;
+    margin-left: 12rem;
   }
 
   .live {
@@ -1722,6 +1723,7 @@ span {
     font-size: 18px;
     text-align: center;
     color: #1a2236;
+    cursor: pointer;
   }
 
   .liveimg {
@@ -2143,7 +2145,7 @@ span {
   .popup-close {
     position: absolute;
     right: 0;
-    left: 87%;
+    left: calc(85% + 1.6rem);
     margin-top: 1.5rem;
     width: 32px;
     height: 32px;
@@ -2183,7 +2185,7 @@ span {
   }
 
   .modal-p {
-    margin: 3rem 1rem 0 15rem;
+    margin: 3rem 1rem 0 13rem;
     width: 700px;
     text-align: center;
   }
@@ -2213,6 +2215,7 @@ span {
     font-size: 18px;
     text-align: center;
     color: #1a2236;
+    cursor: pointer;
   }
 
   .liveimg {
@@ -2222,18 +2225,6 @@ span {
   .live:hover {
     background: #1a2236;
     color: #fff;
-    border: 1px solid #1a2236;
-  }
-
-  .live:nth-child(2) {
-    background: #1a2236;
-    color: #fff;
-    border: 1px solid #1a2236;
-  }
-
-  .live:nth-child(2):hover {
-    background: #fff;
-    color: #1a2236;
     border: 1px solid #1a2236;
   }
 
