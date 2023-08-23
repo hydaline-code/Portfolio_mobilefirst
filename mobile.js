@@ -281,7 +281,8 @@ function popdesktop() {
   const imgmodal = document.createElement('img');
   modalimage.appendChild(imgmodal);
   imgmodal.classList.add('modal-img');
-  imgmodal.src = 'images/Group 105.png';
+  imgmodal.src = 'images/todo.PNG';
+
 
   const modalpara = document.querySelector('.modal-p');
   const para = document.createElement('p');
