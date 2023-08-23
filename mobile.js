@@ -350,4 +350,3 @@ const error = document.querySelector('.error'); const isValidEmail = (inputEmail
     form.submit();
   }
 });
-
