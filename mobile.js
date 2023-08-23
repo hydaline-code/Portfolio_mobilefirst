@@ -281,7 +281,7 @@ function popdesktop() {
   const imgmodal = document.createElement('img');
   modalimage.appendChild(imgmodal);
   imgmodal.classList.add('modal-img');
-  imgmodal.src = 'images/todo.PNG';
+  imgmodal.src = 'images/Group 105.png';
 
   const modalpara = document.querySelector('.modal-p');
   const para = document.createElement('p');
@@ -350,3 +350,4 @@ const error = document.querySelector('.error'); const isValidEmail = (inputEmail
     form.submit();
   }
 });
+
