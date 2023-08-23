@@ -1414,6 +1414,10 @@ span {
     height: 25px;
   }
 
+  .modal-lang ul > li:nth-child(2) {
+    width: 172px;
+  }
+
   .modall-img {
     text-align: center;
     width: 100%;
