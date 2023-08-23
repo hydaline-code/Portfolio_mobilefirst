@@ -221,7 +221,6 @@ projectsDynamic.forEach((project) => {
     const imgmodal = document.createElement('img');
     modalimage.appendChild(imgmodal);
     imgmodal.classList.add('modal-img');
-    // imgmodal.src = 'images/Group 109.png';
     imgmodal.src = 'images/todo.PNG';
 
     const modalpara = document.querySelector('.modal-p');
